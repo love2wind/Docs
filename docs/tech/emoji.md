@@ -1,3 +1,5 @@
+[Emoji2](./emoji2.md)
+
 ## People
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |

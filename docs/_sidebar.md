@@ -6,7 +6,6 @@
 * **教程**
   * [Markdown](tech/markdown.md)
   * [Emoji](tech/emoji.md)
-  * [Emoji2](tech/emoji2.md)
   * [Github](tech/github.md)
   * [docsify](tech/docsify.md)
 * **资源**
@@ -15,4 +14,5 @@
   * [主机](ziyuan/host.md)
   * [域名](ziyuan/domin.md)
   * [项目](ziyuan/githubPJ.md)
+  * 
 
