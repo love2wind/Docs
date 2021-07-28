@@ -1,7 +1,7 @@
 ## People
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
-|---|:--|:--|
+|:--|:--|:--|
 | :blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
 | :smirk: `:smirk:` | :heart_eyes: `:heart_eyes:` | :kissing_heart: `:kissing_heart:` |
 | :kissing_closed_eyes: `:kissing_closed_eyes:` | :flushed: `:flushed:` | :relieved: `:relieved:` |
@@ -204,7 +204,7 @@
 ## Places
 
 | :house: `:house:` | :house_with_garden: `:house_with_garden:` | :school: `:school:` |
-|---|---|---|
+|:--|:--|:--|
 | :office: `:office:` | :post_office: `:post_office:` | :hospital: `:hospital:` |
 | :bank: `:bank:` | :convenience_store: `:convenience_store:` | :love_hotel: `:love_hotel:` |
 | :hotel: `:hotel:` | :wedding: `:wedding:` | :church: `:church:` |
@@ -239,12 +239,12 @@
 | :kr: `:kr:` | :cn: `:cn:` | :us: `:us:` |
 | :fr: `:fr:` | :es: `:es:` | :it: `:it:` |
 | :ru: `:ru:` | :gb: `:gb:` | :uk: `:uk:` |
-| :de: `:de:` |
+| :de: `:de:` |||
 
 ## Symbols
 
 | :one: `:one:` | :two: `:two:` | :three: `:three:` |
-|---|---|---|
+|:--|:--|:--|
 | :four: `:four:` | :five: `:five:` | :six: `:six:` |
 | :seven: `:seven:` | :eight: `:eight:` | :nine: `:nine:` |
 | :keycap_ten: `:keycap_ten:` | :1234: `:1234:` | :zero: `:zero:` |
@@ -308,4 +308,4 @@
 | :black_circle: `:black_circle:` | :white_circle: `:white_circle:` | :red_circle: `:red_circle:` |
 | :large_blue_circle: `:large_blue_circle:` | :large_blue_diamond: `:large_blue_diamond:` | :large_orange_diamond: `:large_orange_diamond:` |
 | :small_blue_diamond: `:small_blue_diamond:` | :small_orange_diamond: `:small_orange_diamond:` | :small_red_triangle: `:small_red_triangle:` |
-| :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
+| :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` ||
