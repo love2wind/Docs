@@ -8,6 +8,7 @@
   * [Emoji](tech/emoji.md)
   * [Emoji2](tech/emoji2.md)
   * [Github](tech/github.md)
+  * [docsify](tech/docsify.md)
 * **资源**
   * [软件](ziyuan/soft.md)
   * [系统](ziyuan/system.md)
