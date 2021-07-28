@@ -4,9 +4,9 @@
   * [网站](nav/stie.md)
   * [收藏](nav/fav.md)
 * **教程**
-  * [Markdown](teah/markdown.md)
-  * [Emoji](teah/emoji.md)
-  * [Emoji2](teah/emoji2.md)
+  * [Markdown](tech/markdown.md)
+  * [Emoji](tech/emoji.md)
+  * [Emoji2](tech/emoji2.md)
 * **资源**
   * [软件](ziyuan/soft.md)
   * [系统](ziyuan/system.md)
