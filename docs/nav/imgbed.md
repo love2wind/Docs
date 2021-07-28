@@ -1,1 +1,1 @@
-# imgbed
+# MY ImgBed List
