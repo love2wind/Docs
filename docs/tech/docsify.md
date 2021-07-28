@@ -63,7 +63,7 @@ docsify init ./docs
 
 这是目录结构就是这样的
 
-```markdown
+```text
 E:
 └───niegedoc
     │
@@ -220,7 +220,7 @@ docsify serve docs
 
 这时我的目录结构就是这样了
 
-```markdown
+```text
 E:
 └───niegedoc
     │
