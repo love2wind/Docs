@@ -6,7 +6,7 @@ Docsify 是一个 **运行时** 的静态网站构建工具，它不会把 markd
 
 ## 准备工作
 
-#### 1、git环境+github账号
+#### 1、git环境+github账号+vercel账号
 
 **教程：**[Git实用教程（二） | Git简介及安装详解](https://zhuanlan.zhihu.com/p/87679636)
 
@@ -20,7 +20,7 @@ docsify框架需要有node环境的支持,在[**node.js**](https://nodejs.org)�
 
 ### 3、步骤
 
-- 搭建环境、注册账号
+- 搭建环境、注册账号、绑定github账号到vercel
 - 使用docsify命令生成文档站点
 - 配置docsify
 - 部署站点
@@ -246,5 +246,56 @@ E:
 
 ### 一、部署到Github
 
+**Dome：**https://love2wind.com/doc
+
 - 登录到Github网站，或者直接[点击这里](https://github.com/new)新建一个公开项目。
-- 
+- clone仓库到本地，将本地docsify目录（也就是前面的niegedoc目录）**内的文件**复制到clone的本地仓库内。
+- push本地仓库到Github。
+- 使用Github Pages功能建立站点：
+
+**进入Github——设置settings——设置Pages——设置Source**
+
+> Select branch选择：`branch:main`
+>
+> Select folder选择：`/docs`
+
+保存设置后，就会看到`yourname.github.io/reponame`这样的链接了，比如我的地址就是https://love2wind.github.io/doc，如果你在Github设置了自定义域名，那么得到的地址就是`yourcustomdomain/reponame`，比如我的地址https://love2wind.com/doc。
+
+这样就完成了docsify部署到Github的全部过程。
+
+### 二、部署到Vercel
+
+**Dome：**https://docs.love2wind.com
+
+> vercel 是一个开箱即用的网站托管服务，它在全球都拥有 CDN 节点，因此比 Github 官方自带的 github pages 更加稳定，访问速度更快。
+
+-　推送本地代码到github仓库，参考上边[部署的github](#一、部署到Github)的前三步。
+-　完成后，[进入vercel工作台](https://vercel.com/dashboard) ，点击右边的 New Project 按钮，新建项目。
+-　左侧的Github Repo列表中选择点击刚刚创建的Github项目的后面的 **Import** 按钮导入项目到vercel。（前提是要绑定github账号到vercel）
+-　设置Project
+
+> **PROJECT NAME：**项目名称，自己随意
+>
+> **FRAMEWORK PRESET：**项目环境，这里选择`other`，不出意外默认就是，所以不用管
+>
+> **ROOT DIRECTORY：**启动目录，这里我们选EDIT，进入编辑，然后在你的项目中选docs目录。（如果你的项目本来就在根目录的话，就不用管这里，直接默认`/`就好。
+
+- 其他选项都不用管，直接点击**`Deploy`**按钮部署。
+
+很快就部署好了，点击**visit**打开看看新建的站点吧。
+
+**Vercel也支持自定义域名，这里简单说下过程**
+
+1.进入vercel工作台
+
+2.进入你刚建立的项目
+
+3.设置settings
+
+4.Domains
+
+5.Add domains
+
+6.设置域名CNAME
+
+7.等待生效，搞定手工。
