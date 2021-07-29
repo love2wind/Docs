@@ -1,5 +1,5 @@
 * **导航**
-  * [网站](nav/stie.md)
+  * [网站](nav/site.md)
   * [网盘](nav/cloud.md)
   * [图床](nav/imgbed.md)
   * [收藏](nav/fav.md)
