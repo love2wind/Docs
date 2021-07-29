@@ -1,37 +1,37 @@
-## 关于Docsify
+# 关于Docsify
 
 Docsify 是一个 **运行时** 的静态网站构建工具，它不会把 markdown 文件转换成 html 文件，不需要启动，不需要打包，只需要一个 index.html 和一堆 markdown 文件就可以完成你的静态网站搭建，就是这么简单。
 
 **LINKS：**https://docsify.js.org
 
-## 准备工作
+# 准备工作
 
-### 1、git环境+github账号+vercel账号
+## 1、git环境+github账号+vercel账号
 
 **教程：**[Git实用教程（二） | Git简介及安装详解](https://zhuanlan.zhihu.com/p/87679636)
 
 **官网注册github的账号：**[Github](https://github.com/)
 
-### 2、node环境
+## 2、node环境
 
 docsify框架需要有node环境的支持,在[**node.js**](https://nodejs.org)的官网下载安装包，此处下载Windows版本的，点下一步一路安装下去，配置下环境变量即可。
 
 **教程：**[npm安装教程 ](https://www.cnblogs.com/goldlong/p/8027997.html)
 
-### 3、步骤
+## 3、步骤
 
 - 搭建环境、注册账号、绑定github账号到vercel
 - 使用docsify命令生成文档站点
 - 配置docsify
 - 部署站点
 
-## 正式开始
+# 正式开始
 
-### 按照前面教程搭建所需环境和注册账号
+## 按照前面教程搭建所需环境和注册账号
 
 这里就再不写了，前面的教程都很详细了。
 
-### 安装docsify-cli 工具
+## 安装docsify-cli 工具
 
 推荐安装 docsify-cli 工具，可以方便创建及本地预览文档网站。
 
@@ -41,7 +41,7 @@ npm i docsify-cli -g
 
 因为我们已经安装了node环境，所以直接打开CMD窗口执行上面的命令就好了。
 
-### 初始化一个项目
+## 初始化一个项目
 
 然后我们选择一个目录，作为我们的站点目录。
 
@@ -75,7 +75,7 @@ E:
 
 
 
-### 启动项目，预览效果
+## 启动项目，预览效果
 
 到这里，就可以启动项目，然后看下效果了。 使用下面命令启动项目：
 
@@ -85,7 +85,7 @@ docsify serve docs
 
 在浏览器输入：http://localhost:3000   就可以看到效果了。
 
-### 配置docsify
+## 配置docsify
 
 这里贴一个完整配置文件index.html，直接复制代码到你的index.html文件里，按照注释修改相应配置就可以了。
 
@@ -238,11 +238,11 @@ E:
 
 到这里docsify本地搭建及配置就完成了，后面只要不断的写文章并修改_sidebar.md目录文件就好。
 
-## 部署docsify网站
+# 部署docsify网站
 
 这里我主要记录下部署到Github和Vercel。
 
-### 一、部署到Github
+## 一、部署到Github
 
 **Dome：**https://love2wind.com/doc
 
@@ -261,7 +261,7 @@ E:
 
 这样就完成了docsify部署到Github的全部过程。
 
-### 二、部署到Vercel
+## 二、部署到Vercel
 
 **Dome：**https://docs.love2wind.com
 
@@ -282,7 +282,7 @@ E:
 
 很快就部署好了，点击**visit**打开看看新建的站点吧。
 
-### **Vercel也支持自定义域名，这里简单说下过程**
+#### **Vercel也支持自定义域名，这里简单说下过程**
 
 1. 进入vercel工作台
 
