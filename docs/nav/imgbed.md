@@ -28,10 +28,19 @@ https://niege.ml/a1img/upload/  OneManager-php搭建于VPS
 
 https://pan.npapi.ml/lisp/upload/  OneManager-PHP搭建于Heroku
 
-## 其他优秀图床
+# 其他优秀图床
 
-- https://pic.onji.cn/
 
-auxpi搭建的各大公共图床，支持的图床很全面。
 
-- 
+| 图床                               | 简介                                        |
+| ---------------------------------- | ------------------------------------------- |
+| [映画の图床](https://pic.onji.cn/) | auxpi搭建的各大公共图床，支持的图床很全面。 |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+|                                    |                                             |
+
