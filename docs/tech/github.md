@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Pronouns-He%2FHim-brightgreen?style=flat" referrerpolicy="no-referrer" alt="Pronouns">
 <img src="http://img.shields.io/badge/-Open%20Source%20Fan-3DA639?style=flat&amp;logo=open-source-initiative&amp;logoColor=ffffff" referrerpolicy="no-referrer" alt="Open Source"></p>
 
-#### About Me :wave:
+### About Me :wave:
 
 [<img align="right" width="50%" src="https://github-readme-stats.vercel.app/api?username=love2wind&show_icons=true&theme=radical">](https://metrics.lecoq.io/love2wind?template=classic)
 

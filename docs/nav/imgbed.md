@@ -1,4 +1,4 @@
-# 我的自建图床
+## 我的自建图床
 
 - ### Auxpi
 
@@ -28,7 +28,7 @@ https://niege.ml/a1img/upload/  OneManager-php搭建于VPS
 
 https://pan.npapi.ml/lisp/upload/  OneManager-PHP搭建于Heroku
 
-# 其他优秀图床
+## 其他优秀图床
 
 - https://pic.onji.cn/
 
