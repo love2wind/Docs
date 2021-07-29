@@ -1,9 +1,3 @@
-<!-- _coverpage.md -->
-
-
-
-
-
 <div style=""><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/82fcaac7cfe71eb9e99d606d6b7a3f22.png" alt="logo" style="zoom:60%;margin:100px auto 20px auto;algin:center;display:block;" /></div>
 
 <h1 style="text-align:center;margin:15px auto;display: block;">NieGe Docs <small>v1.0</small></h1>

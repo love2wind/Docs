@@ -1,7 +1,7 @@
 * **导航**
+  * [网站](nav/stie.md)
   * [网盘](nav/cloud.md)
   * [图床](nav/imgbed.md)
-  * [网站](nav/stie.md)
   * [收藏](nav/fav.md)
 * **教程**
   * [Markdown](tech/markdown.md)
