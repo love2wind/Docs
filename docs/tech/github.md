@@ -29,3 +29,14 @@
 
 
 
+### 设置Github代理
+
+```
+[http]
+proxy = socks5://127.0.0.1:1082
+[https]
+proxy = socks5://127.0.0.1:1082
+[git]
+proxy = socks5://127.0.0.1:1081
+```
+
