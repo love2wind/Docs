@@ -9,7 +9,9 @@
 
 <p class="warn" style="text-align:center;" id="jinrishici-sentence">涅槃网站常用文档列表，不断完善添加中。。。</p>
 
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
+
+
 
 [导航](nav/site.md)
 [滚动鼠标查看](#introduction)
