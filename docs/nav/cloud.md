@@ -1,6 +1,6 @@
 # NieGe Cloud List
 
-<div style="align:center"><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/29ee4f1dcca07c8a1fc1a6968cc4f732.png" style="zoom:20%;" /></div>
+<div style="text-align:center"><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/29ee4f1dcca07c8a1fc1a6968cc4f732.png" style="zoom:20%;" /></div>
 
 ?> 本站搭建的网盘及其简介，相关项目可以在[项目列表](./ziyuan/githubPJ.md)查看。
 

@@ -17,5 +17,21 @@
 | O365管理系统   | http://e5.niege.cf/       | [O365](https://github.com/vanyouseea/o365)                   | Office365管理系统                                  |
 | 短网址         | http://niege.ga           | [YOURLS](http://yourls.org/)+[Sleeky](https://github.com/Flynntes/Sleeky/releases) | 另一个简单的短网址服务                             |
 
+
+
 ## Web Tools List
+
+- #### 剪贴板内容转MARKDOWN的在线工具
+
+https://love2wind.com/copy2md/
+
+!> 一个便捷的Markdown转换工具，快速将剪贴板的内容转换为Markdown格式，转换速度快，容错率高。
+
+- #### 图片格式转换
+
+https://renzhezhilu.gitee.io/webp2jpg-online/    **国内访问较快**
+
+https://renzhezhilu.github.io/webp2jpg-online/
+
+!> 一个快速转换各类图片格式的工具，内容全部在浏览器内进行操作，不会上传数据到服务器端，快速、高效、支持类型多、新版支持压缩、水印功能。
 
