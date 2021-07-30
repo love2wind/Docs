@@ -1,5 +1,5 @@
 <!-- _coverpage.md -->
-<div style=""><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/82fcaac7cfe71eb9e99d606d6b7a3f22.png" alt="logo" style="zoom:60%;margin:60px auto 20px auto;algin:center;display:block;" /></div>
+<div style=""><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/82fcaac7cfe71eb9e99d606d6b7a3f22.png" alt="logo" style="zoom:60%;margin:20px auto;algin:center;display:block;" /></div>
 
 # NieGe Docs <small>v1.0</small>
 
@@ -13,3 +13,4 @@
 
 [导航](nav/site.md)
 [滚动鼠标查看](#introduction)
+
