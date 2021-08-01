@@ -12,5 +12,5 @@
 
 
 [博客](https://love2wind.cn)
-[向下滚动鼠标开始](#introduction)
+[向下滚动鼠标开始](#/README)
 
