@@ -280,18 +280,18 @@ E:
 
 很快就部署好了，点击**visit**打开看看新建的站点吧。
 
-#### **Vercel也支持自定义域名，这里简单说下过程**
+## Vercel也支持自定义域名，这里简单说下过程
 
-1. 进入vercel工作台
+1.  进入vercel工作台
 
-2. 进入你刚建立的项目
+2.  进入你刚建立的项目
 
-3. 设置settings
+3.  设置settings
 
-4. Domains
+4.  Domains
 
-5. Add domains
+5.  Add domains
 
-6. 设置域名CNAME
+6.  设置域名CNAME
 
-7. 等待生效，搞定手工。
+7.  等待生效，搞定手工。
