@@ -25,6 +25,10 @@
   .markdown-section h1 {
     text-align: center;
   }
+  :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: purple;
+  }
   </style>
 </head>
 
@@ -116,7 +120,14 @@
           coverBackground: 'linear-gradient(to left bottom, hsl(118, 100%, 85%) 0%,hsl(181, 100%, 85%) 100%)',
           toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)'
         }
-      }
+      },
+	  tabs: {
+		persist    : true,      // default
+		sync       : true,      // default
+		theme      : 'classic', // default
+		tabComments: true,      // default
+		tabHeadings: true       // default
+			}
     }
   </script>
 </body>
@@ -134,5 +145,6 @@
 <!-- 阅读进度条插件 -->
 <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
 <!-- 暗黑主题切换插件 -->
-
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1.5.0/dist/docsify-tabs.min.js"></script>
+<!-- Tab插件 -->
 </html>
