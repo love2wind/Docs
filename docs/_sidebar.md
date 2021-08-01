@@ -1,8 +1,11 @@
+* [**开始**](README.md)
 * **导航**
   * [网站](nav/site.md)
   * [网盘](nav/cloud.md)
   * [图床](nav/imgbed.md)
   * [收藏](nav/fav.md)
+* **API**
+  * [网站标题图标获取](api/favicon.md)
 * **教程**
   * [Markdown](tech/markdown.md)
   * [Emoji](tech/emoji.md)
