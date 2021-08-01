@@ -12,5 +12,5 @@
 
 
 [博客](https://love2wind.cn)
-[开始](#/README?id=%e5%85%b3%e4%ba%8e%e6%9c%ac%e7%ab%99)
+[开始](https://love2wind.com/Doc/#/README)
 
