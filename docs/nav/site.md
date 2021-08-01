@@ -35,19 +35,3 @@ https://renzhezhilu.github.io/webp2jpg-online/
 
 !> 一个快速转换各类图片格式的工具，内容全部在浏览器内进行操作，不会上传数据到服务器端，快速、高效、支持类型多、新版支持压缩、水印功能。
 
-<!-- tabs:start -->
-
-#### **English**
-
-Hello!
-
-#### **French**
-
-Bonjour!
-
-#### **Italian**
-
-Ciao!
-
-<!-- tabs:end -->
-
