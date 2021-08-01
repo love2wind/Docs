@@ -46,6 +46,20 @@
 </head>
 
 <body>
+<!-- Gitalk插件 -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+  const gitalk = new Gitalk({
+    clientID: 'd0ea0bce87dbfcc72fc9',
+    clientSecret: 'efdbab7fbcdcb477e3460a09b8f1d32a8744ef7e',
+    repo: 'nietalk',
+    owner: 'love2wind',
+    admin: ['love2wind'],
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+  </script>
   <div id="app">NOW loading...</div>
   <!-- 在github上编辑插件 
   <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>-->
@@ -157,17 +171,7 @@
 			<!-- } -->
     }
   </script>
-  <script>
-  const gitalk = new Gitalk({
-    clientID: 'd0ea0bce87dbfcc72fc9',
-    clientSecret: 'efdbab7fbcdcb477e3460a09b8f1d32a8744ef7e',
-    repo: 'nietalk',
-    owner: 'love2wind',
-    admin: ['love2wind'],
-    // facebook-like distraction free mode
-    distractionFreeMode: false
-  })
-  </script>
+
 </body>
 
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
@@ -188,9 +192,6 @@
 <!-- 阅读进度条插件 -->
 <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
 <!-- 暗黑主题切换插件 -->
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-<!-- Gitalk插件 -->
 <!--<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1.5.0/dist/docsify-tabs.min.js"></script>
  Tab插件 -->
 </html>
