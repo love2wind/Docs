@@ -12,5 +12,5 @@
 
 
 [博客](https://love2wind.cn)
-[开始](https://love2wind.com/Doc/#/README)
+[开始](#/?id=关于本站)
 
