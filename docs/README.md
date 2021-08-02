@@ -29,39 +29,20 @@
 
 # 关注我们
 
-                <table style="text-align:center;border: 0;padding: 0;margin:0;">
-                    <tbody border:="" 0;="">
-                        <tr>
-                            <td style="text-align:center;border: 0;padding: 0 5px;">
-                                <img src="https://imgsrc.xyz/images/2019/2019/11/weixin_big.png"
-                                alt="我的微信" style="width:100px;">
-                                <p style="text-align:center;">
-                                    我的微信
-                                </p>
-                            </td>
-                            <td style="text-align:center;border: 0;padding: 0 5px;">
-                                <img src="https://imgsrc.xyz/images/2019/2019/11/gongzhonghao.png"
-                                alt="我的公众号" style="width:100px;">
-                                <p style="text-align:center;">
-                                    我的公众号
-                                </p>
-                            </td>
-                            <td style="text-align:center;border: 0;padding: 0 5px;">
-                                <img src="https://imgsrc.xyz/images/2019/2019/11/M_weibo_big.png"
-                                alt="官方微博" style="width:100px;">
-                                <p style="text-align:center;">
-                                    官方微博
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+| <img src="C:\Users\Administrator\Downloads\580e093cec0dcb4e1de86fa0bb001124.png" style="width:150px;" /> | <img src="C:\Users\Administrator\Downloads\ba73ae1795ad98a6fca46e8b282ee975.png"  style="width:150px;" /> | <img src="C:\Users\Administrator\Downloads\0011922edd968d73a562c17c1ac6a6b3.png"  style="width:150px;" /> | <img src="C:\Users\Administrator\Downloads\tg.png"  style="width:150px;"  /> |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|                         **官方QQ群**                         |                        **我的微信号**                        |                        **微信公众号**                        |    **[加入TG群](https://t.me/joinchat/NMtbkJmuPdxjZjc9)**    |
+
+
+
 
 # 其他
 
 - 有问题、加友链请移步 [会议室 ](https://love2wind.cn/meeting.html)留言。
 - 本站所有资源均为学习、交流使用，为了让大家更方便，但不得用于任何商业用途。
 - 本站文章均在内容中标明了出处，如未标明则属原创内容或无法找到出处。如果本站内容侵害了您的权益，请联系站长删除！
+
+
 
 # 请站长喝咖啡
 
