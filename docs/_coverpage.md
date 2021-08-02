@@ -1,7 +1,7 @@
 <!-- _coverpage.md -->
-<!--<h1 style="text-align:center;margin:25px auto;display: block;">NieGe Docs</h1>
 
-# NieGe Docs <small>v1.0</small>-->
+<div style=""><img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/d69b0c261182a4880f5209c5c2fe7362.png" alt="logo" style="zoom:60%;margin:20px auto;algin:center;display:block;" /></div>
+<!--<h1 style="text-align:center;margin:25px auto;display: block;">NieGe Docs</h1>-->
 
 <h1 style="text-align:center;margin:25px auto;display: block;">NieGe Docs <small>v1.0</small></h1>
 
