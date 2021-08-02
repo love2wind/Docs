@@ -45,9 +45,42 @@
 
 
 
+# 关注我们
+
+                <table style="text-align:center;border: 0;padding: 0;margin:0;">
+                    <tbody border:="" 0;="">
+                        <tr>
+                            <td style="text-align:center;border: 0;padding: 0 5px;">
+                                <img src="https://imgsrc.xyz/images/2019/2019/11/weixin_big.png"
+                                alt="我的微信" style="width:100px;">
+                                <p style="text-align:center;">
+                                    我的微信
+                                </p>
+                            </td>
+                            <td style="text-align:center;border: 0;padding: 0 5px;">
+                                <img src="https://imgsrc.xyz/images/2019/2019/11/gongzhonghao.png"
+                                alt="我的公众号" style="width:100px;">
+                                <p style="text-align:center;">
+                                    我的公众号
+                                </p>
+                            </td>
+                            <td style="text-align:center;border: 0;padding: 0 5px;">
+                                <img src="https://imgsrc.xyz/images/2019/2019/11/M_weibo_big.png"
+                                alt="官方微博" style="width:100px;">
+                                <p style="text-align:center;">
+                                    官方微博
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
 # 其他
 
 - 有问题、加友链请移步 [会议室 ](https://love2wind.cn/meeting.html)留言。
 - 本站所有资源均为学习、交流使用，为了让大家更方便，但不得用于任何商业用途。
 - 本站文章均在内容中标明了出处，如未标明则属原创内容或无法找到出处。如果本站内容侵害了您的权益，请联系站长删除！
 
+# 请站长喝咖啡
+
+<img src="https://cdn.jsdelivr.net/gh/love2wind/blogcdn@v3.0/spzac/img/qcode.png" style="zoom:50%;" />
