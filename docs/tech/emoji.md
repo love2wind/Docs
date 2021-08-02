@@ -1,4 +1,4 @@
-[Emoji2](emoji2.md)
+[Emoji2](tech/emoji2.md)
 
 ## People
 
