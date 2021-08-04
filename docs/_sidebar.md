@@ -1,5 +1,4 @@
 * [**开始**](README.md)
-* **导航**
   * [网站](nav/site.md)
   * [图床](nav/imgbed.md)
   * [收藏](nav/fav.md)
