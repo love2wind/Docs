@@ -10,6 +10,7 @@
   * [Emoji](tech/emoji.md)
   * [Github](tech/github.md)
   * [docsify](tech/docsify.md)
+  * [Linux常用命令](tech/shell.md)
 * **资源**
   * [软件](ziyuan/soft.md)
   * [系统](ziyuan/system.md)
