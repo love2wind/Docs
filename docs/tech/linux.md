@@ -67,35 +67,51 @@
 
 ### docker常用基本命令
 
-dockerimages  #查看镜像
-dockerps  #查看当前已经运行的容器
-dockerps-a  #查看当前所有的容器
-dockerps-a-q  #只显示当前运行的容器的ID号
-docker rm -f +前4位容器ID号
-dockerrm-f$(dockerps-a-q)  #删除当前运行的所有容器
-
-dockersystemprune-a  #回收垃圾,执行这个，才会从硬盘彻底清除
-
-
-
-dockerpull  #下载镜像dockerpullhub.c.163.com/public/centos:6.7-tools
-dockerrun  #从镜像运行为容器
-dockerstart/stop  #容器启动停止
-docker rmi +别名或ID号   #Docker 镜像的删除
-dockersimages-a-q  #显示镜像所有的ID号
-dockerrmi-f$(dockerimages-a-q)  #强制删除所有镜像
+> dockerimages  #查看镜像
+>
+> dockerps  #查看当前已经运行的容器
+>
+> dockerps-a  #查看当前所有的容器
+>
+> dockerps-a-q  #只显示当前运行的容器的ID号
+>
+> docker rm -f +前4位容器ID号
+>
+> dockerrm-f$(dockerps-a-q)  #删除当前运行的所有容器
+>
+> dockersystemprune-a  #回收垃圾,执行这个，才会从硬盘彻底清除
+>
+> dockerpull  #下载镜像dockerpullhub.c.163.com/public/centos:6.7-tools
+>
+> dockerrun  #从镜像运行为容器
+>
+> dockerstart/stop  #容器启动停止
+>
+> docker rmi +别名或ID号   #Docker 镜像的删除
+>
+> dockersimages-a-q  #显示镜像所有的ID号
+>
+> dockerrmi-f$(dockerimages-a-q)  #强制删除所有镜像
 
 **单一容器管理命令：**
 
-dockerps–no-trunc  #查看容器详细信息
-dockerstop/startCONTAINERID  #通过容器id启动/停止
-dockerrun–restart=always  #容器的自动启动
-dockerstart/stopMywordPress  #通过容器别名启动/停止
-dockerinspectMywordPress  #查看容器所有基本信息
-dockerlogsMywordPress  #查看容器日志
-dockerstatsMywordPress  #查看容器所占用的系统资源
-dockerexec 容器名 容器内执行的命令  #容器执行命令
-docker exec -it 容器名 /bin/bash #登陆容器的bash
+> dockerps–no-trunc  #查看容器详细信息
+>
+> dockerstop/startCONTAINERID  #通过容器id启动/停止
+>
+> dockerrun–restart=always  #容器的自动启动
+>
+> dockerstart/stopMywordPress  #通过容器别名启动/停止
+>
+> dockerinspectMywordPress  #查看容器所有基本信息
+>
+> dockerlogsMywordPress  #查看容器日志
+>
+> dockerstatsMywordPress  #查看容器所占用的系统资源
+>
+> dockerexec 容器名 容器内执行的命令  #容器执行命令
+>
+> docker exec -it 容器名 /bin/bash #登陆容器的bash
 
 ### Linux四合一加速脚本(BBR、锐速、BBRPlus)
 
