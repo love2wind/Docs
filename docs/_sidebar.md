@@ -9,6 +9,7 @@
   * [Markdown](tech/markdown.md)
   * [Emoji](tech/emoji.md)
   * [Github](tech/github.md)
+  * [Google Fonts](tech/googlefont.md)
   * [docsify](tech/docsify.md)
   * [Linux常用命令](tech/linux.md)
   * [常用脚本收集](tech/shell.md)
