@@ -97,10 +97,6 @@ https://ola.niege.ml/image    OLAINDEX搭建于VPS
 
 https://niege.ml/a1img/upload/  OneManager-php搭建于VPS
 
-https://pan.npapi.ml/lisp/upload/  OneManager-PHP搭建于Heroku
-
-
-
 # 🍔 图床推荐测评
 
 !> [在这里查看各大公共图床测评](nav/imgtest)
