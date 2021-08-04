@@ -12,7 +12,7 @@
 
 进入Noto Serif SC思源宋体的界面：
 
-[![谷歌字体api思源宋体](https://picup.heson10.com/img/upyun/image-20201001225452635.png)](https://picup.heson10.com/img/upyun/image-20201001225452635.png)
+[![谷歌字体api思源宋体](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/9469ba54ef1e24802fdc429d863a23cb.png)](https://picup.heson10.com/img/upyun/image-20201001225452635.png)
 
 在这里就像超市挑选商品一样，选择一款自己喜欢的字体样式。
 
@@ -36,7 +36,7 @@ font-family: 'Mulish', -apple-system, 'Noto Serif SC', "PingFang SC", "Microsoft
 
 以上代码是我博客用的字体，mulish是一款英文字体，一般放在中文字体前面（也是谷歌的英文字体，引用方法同上），效果：
 
-[![mulish字体效果](https://picup.heson10.com/img/upyun/image-20201001230423198.png)](https://picup.heson10.com/img/upyun/image-20201001230423198.png)
+[![mulish字体效果](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/62784cd59162984220ee6937386b70ce.png)](https://picup.heson10.com/img/upyun/image-20201001230423198.png)
 
 经过测试，`fonts.googleapis.com`还是比 `loli`的节点要更快点。
 
