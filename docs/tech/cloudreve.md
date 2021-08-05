@@ -36,7 +36,7 @@
 >
 > 演示：[https://pan.love2wind.com](https://pan.love2wind.com/)
 
-Cloudreve 是个公有网盘程序，你可以用它快速搭建起自己的网盘服务，公有云/私有云都可。作者用了六个月的时间，把 Cloudreve 用 Go 语言重构了一遍，除了修复 V2 版本被诟病很多的 Bug 外，还增加了很多令人兴奋的新特性：
+Cloudreve 是个公有网盘程序，你可以用它快速搭建起自己的网盘服务，公有云/私有云都可。作者用了六个月的时间，把 Cloudreve 用 Go 语言重构了一遍，除了修复 V2 版本被诟病很多的 Bug 外，还增加了很多令人兴奋的新特性：[宝塔面板Cloudreve+Aria2配置离线下载 - 大鸟博客 (daniao.org)](https://www.daniao.org/13249.html)
 
 ## :sparkles: 特性
 
