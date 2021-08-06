@@ -2,8 +2,7 @@
   * [网站](nav/site.md)
   * [图床](nav/imgbed.md)
   * [收藏](nav/fav.md)
-* [**API**](api/api.md)
-  * [网站标题图标获取](api/favicon.md)
+  * [**API**](api/api.md)
 * **教程**
   * [Markdown](tech/markdown.md)
   * [Emoji](tech/emoji.md)
