@@ -9,6 +9,7 @@
   * [Github](tech/github.md)
   * [Google Fonts](tech/googlefont.md)
   * [docsify](tech/docsify.md)
+  * [微软开发者E5申请](/tech/e5.md)
   * [Linux常用命令](tech/linux.md)
   * [常用脚本收集](tech/shell.md)
 * **资源**
