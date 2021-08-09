@@ -1,17 +1,26 @@
-* [**开始**](README.md)
+* **关于本站**
   * [网站](nav/site.md)
   * [图床](nav/imgbed.md)
   * [收藏](nav/fav.md)
-  * [**API**](api/api.md)
-* **教程**
-  * [Markdown](tech/markdown.md)
-  * [Emoji](tech/emoji.md)
-  * [Github](tech/github.md)
-  * [Google Fonts](tech/googlefont.md)
-  * [docsify](tech/docsify.md)
-  * [Linux常用命令](tech/linux.md)
-  * [常用脚本收集](tech/shell.md)
-* **资源**
+  * [**API**](https://love2wind.com/api)
+* **学习教程**
+  * **学习笔记**
+    - [Markdown](tech/markdown.md)
+    - [Emoji](tech/emoji.md)
+    - [Google Fonts](tech/googlefont.md)
+    - [Linux常用命令](tech/linux.md)
+    - [常用脚本收集](tech/shell.md)
+  * **网站搭建**
+    - [docsify](tech/docsify.md)
+  * **网盘相关**
+    - [微软开发者E5申请](/tech/e5.md)
+    - [E5SubBOT](/tech/e5bot.md)
+    - [Oneindex](/tech/oneindex.md)
+    - [Cloudreve](/tech/oneindex.md)
+  * **宝塔面板**
+  * **Tpyecho**
+  * [**Github**](tech/github.md)
+* **资源收集**
   * [软件](ziyuan/soft.md)
   * [系统](ziyuan/system.md)
   * [主机](ziyuan/host.md)
