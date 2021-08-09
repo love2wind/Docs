@@ -12,6 +12,7 @@
   * **网站搭建**
     - [API](note/site/api.md)
     - [docsify](note/site/docsify.md)
+    - [Freenom免费域名自动续期](note/site/freenomxq.md)
   * **网盘相关**
     - [微软开发者E5申请](/note/imgpan/e5.md)
     - [E5SubBOT](/note/imgpan/e5bot.md)
@@ -21,6 +22,7 @@
   * **宝塔面板**
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
+    - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
   * **Tpyecho**
   * [**Github**](note/git/github.md)
 * **资源收集**
