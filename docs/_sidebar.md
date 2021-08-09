@@ -1,29 +1,31 @@
 * **关于本站**
-  * [网站](nav/site.md)
-  * [图床](nav/imgbed.md)
-  * [收藏](nav/fav.md)
-  * [**API**](https://love2wind.com/api)
-* **学习教程**
-  * **学习笔记**
-    - [Markdown](tech/markdown.md)
-    - [Emoji](tech/emoji.md)
-    - [Google Fonts](tech/googlefont.md)
-    - [Linux常用命令](tech/linux.md)
-    - [常用脚本收集](tech/shell.md)
+  * [网站导航](nav/sitenav.md)
+  * [图床测评](nav/tccp.md)
+  * [网站推荐](nav/favsite.md)
+* **学习笔记**
+  * **基础知识**
+    - [Markdown](note/jichu/markdown.md)
+    - [Emoji](note/jichu/emoji.md)
+    - [Google Fonts](note/jichu/googlefont.md)
+    - [Linux常用命令](note/jichu/linux.md)
+    - [常用脚本收集](note/jichu/shell.md)
   * **网站搭建**
-    - [docsify](tech/docsify.md)
+    - [API](note/site/api.md)
+    - [docsify](note/site/docsify.md)
   * **网盘相关**
-    - [微软开发者E5申请](/tech/e5.md)
-    - [E5SubBOT](/tech/e5bot.md)
-    - [Oneindex](/tech/oneindex.md)
-    - [Cloudreve](/tech/oneindex.md)
+    - [微软开发者E5申请](/note/imgpan/e5.md)
+    - [E5SubBOT](/note/imgpan/e5bot.md)
+    - [Oneindex](/note/imgpan/oneindex.md)
+    - [Cloudreve](/note/imgpan/cloudreve.md)
+    - [OlaIndex](/note/imgpan/olaindex.md)
   * **宝塔面板**
+    - [宝塔面板安装全记录](note/bt/install.md)
+    - [最新解除绑定的方法](note/bt/jiebangbt.md)
   * **Tpyecho**
-  * [**Github**](tech/github.md)
+  * [**Github**](note/git/github.md)
 * **资源收集**
   * [软件](ziyuan/soft.md)
   * [系统](ziyuan/system.md)
   * [主机](ziyuan/host.md)
   * [域名](ziyuan/domin.md)
   * [项目](ziyuan/githubPJ.md)
-
