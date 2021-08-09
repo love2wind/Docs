@@ -27,6 +27,7 @@
   * [**Github**](note/git/github.md)
 * **资源收集**
   * [软件](ziyuan/soft.md)
+    - [VScode安装配置记录](ziyuan/vscode.md)
   * [系统](ziyuan/system.md)
   * [主机](ziyuan/host.md)
   * [域名](ziyuan/domin.md)
