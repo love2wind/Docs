@@ -12,8 +12,7 @@
 
 
 
-![img](https://pic3.zhimg.com/v2-d3949b4ccb6b42b8b2becba84e27df8e_b.jpg)
-
+![20210810024221-2021-08-10](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/20210810024221-2021-08-10.png)
 - 注意：解压到非系统盘（节约系统盘空间，也方便后面使用）
 - 文件夹最好不要出现中文和空格，如：解压到D:\VSCode-win32-x64-1.31.1
 
@@ -80,4 +79,25 @@ Visual Studio Code 原生就支持高亮Markdown的语法，想要一边编辑�
 - `Ctrl + Shift + P` 调出主命令框，输入 `Markdown`，选择`Markdown: Open Preview to the Side`，就能调出实时预览框了。
 
 - 先按`Ctrl + K`，然后放掉，紧接着再按`v`，也能调出实时预览框。
+
+## 配置PicGO扩展
+VSCode的 PicGo 是基于PicGo-Core开发的一款插件，这样的感觉就像在是在线编辑器里面的实时编辑的体验。
+
+> 支持的图床有 微博图床 v1.0、七牛图床 v1.0、腾讯云COS v4\v5版本 v1.1 & v1.5.0、拍云 v1.2.0、GitHub v1.5.0、SM.MS v1.5.1、阿里云OSS v1.6.0、Imgur。
+
+- 下载插件picgo
+> 在VScode应用商店搜索`picgo`安装即可
+
+- 扩展配置
+
+> 打开配置，配置好图床参数即可
+
+- 使用快捷键
+
+## 使用
+
+| 系统           | 从剪贴板上传图像 | 从资源管理器上传图像 | 从输入框上传图像 |
+| -------------- | ---------------- | -------------------- | ---------------- |
+| Windows / Unix | Ctrl + Alt + u   | Ctrl + Alt + e       | Ctrl + Alt + o   |
+| macOS          | Cmd + Opt + u    | Cmd + Opt + e        | Cmd + Opt + o    |
 
