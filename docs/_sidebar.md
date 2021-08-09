@@ -9,7 +9,11 @@
   * [Github](tech/github.md)
   * [Google Fonts](tech/googlefont.md)
   * [docsify](tech/docsify.md)
-  * [微软开发者E5申请](/tech/e5.md)
+  * **网盘相关**
+    - [微软开发者E5申请](/tech/e5.md)
+    - [E5SubBOT](/tech/e5bot.md)
+    - [Oneindex](/tech/oneindex.md)
+    - [Cloudreve](/tech/oneindex.md)
   * [Linux常用命令](tech/linux.md)
   * [常用脚本收集](tech/shell.md)
 * **资源**
