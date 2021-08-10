@@ -20,6 +20,7 @@
     - [Oneindex](/note/imgpan/oneindex.md)
     - [Cloudreve](/note/imgpan/cloudreve.md)
     - [OlaIndex](/note/imgpan/olaindex.md)
+    - [OneManager-PHP](/note/imgpan/onemanager.md)
   * **宝塔面板**
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
