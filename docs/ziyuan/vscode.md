@@ -54,7 +54,7 @@
 因此在本地VSCode快捷方式中目标参数增加以上命令项，即可实现VSCode的SOCKS5代理
 
 ```c++
-C://****/Code.exe --proxy-server="socks5://myproxy:8080" --host-resolver-rules="MAP * ~NOTFOUND , EXCLUDE myproxy"
+C://****/Code.exe --proxy-server="socks5://myproxy:8080"
 ```
 
 ## 配置HTTP Proxy
@@ -85,16 +85,13 @@ VSCode的 PicGo 是基于PicGo-Core开发的一款插件，这样的感觉就像
 
 > 支持的图床有 微博图床 v1.0、七牛图床 v1.0、腾讯云COS v4\v5版本 v1.1 & v1.5.0、拍云 v1.2.0、GitHub v1.5.0、SM.MS v1.5.1、阿里云OSS v1.6.0、Imgur。
 
-- 下载插件picgo
+### 下载插件picgo
 > 在VScode应用商店搜索`picgo`安装即可
 
-- 扩展配置
-
+### 扩展配置
 > 打开配置，配置好图床参数即可
 
-- 使用快捷键
-
-## 使用
+### 使用快捷键
 
 | 系统           | 从剪贴板上传图像 | 从资源管理器上传图像 | 从输入框上传图像 |
 | -------------- | ---------------- | -------------------- | ---------------- |

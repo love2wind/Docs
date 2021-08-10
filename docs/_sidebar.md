@@ -11,6 +11,7 @@
     - [常用脚本收集](note/jichu/shell.md)
   * **网站搭建**
     - [API](note/site/api.md)
+    - [Hexo博客搭建教程](note/site/hexo.md)
     - [docsify](note/site/docsify.md)
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
   * **网盘相关**
