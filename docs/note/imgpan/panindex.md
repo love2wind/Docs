@@ -1,15 +1,21 @@
-# 关于
-**项目地址：** https://github.com/libsgh/PanIndex
-**文档地址：** https://libsgh.github.io/PanIndex/
-# 支持
+## 关于
+**项目：** https://github.com/libsgh/PanIndex
+
+**文档：** https://libsgh.github.io/PanIndex/
+
+## 支持
 由于PanIndex交叉编译需要cgo（sqlite），目前很多平台还不能很好的支持，如果你有特殊的编译需求，请告知我，我会尽量添加
 - Linux （x86 / amd64 / arm / arm64 ）
 - Windows 7 及之后版本（x86 / amd64 ）
 - macos（amd64）
-# 下载
+
+## 下载
+
 预编译的二进制文件压缩包可在[Github Release](https://github.com/libsgh/PanIndex/releases)下载，解压后方可使用。
 
-### 直接运行
+## 部署
+
+### 1. 直接运行
 
 **启动参数**
 
@@ -21,8 +27,6 @@
 > -key_file=/path/to/privkey.pem # 开启ssl，证书文件密钥
 > -cq=port # 只是查询配置，程序并不会启动
 
-
-
 ```bash
 $ tar -xvf PanIndex-v1.0.0-linux-amd64.tar.gz
 #nohup ./PanIndex -host=0.0.0.0 -port=5238 -debug=false > PanIndex.log &
@@ -30,7 +34,7 @@ $ tar -xvf PanIndex-v1.0.0-linux-amd64.tar.gz
 $ nohup ./PanIndex > PanIndex.log &
 ```
 
-### 在Systemd下运行
+### 2. 在Systemd下运行
 
 > 以下命令请切换到root下执行
 
@@ -81,7 +85,7 @@ $ nohup ./PanIndex > PanIndex.log &
    $ journalctl -u PanIndex.service -f #滚动查看PanIndex日志
    ```
 
-### 在Supervisor下运行
+### 3. 在Supervisor下运行
 
 1. 启动命令那里，要填PanIndex的绝对路径 ![img](https://libsgh.github.io/PanIndex/_images/Supervisor.png)
 2. 如果需要配置环境变量在子配置文件中添加才能生效
@@ -90,7 +94,7 @@ $ nohup ./PanIndex > PanIndex.log &
 environment=a="1",b="2"
 ```
 
-### heroku部署
+### 4. heroku部署
 
 - 注册登录账号并绑卡，因为herokuku免费版有使用小时数限制，绑定信用卡可以使应用一直在线，**不扣费**
 - 点击↓按钮跳转到heroku部署页面，修改 **CONFIG**
@@ -101,7 +105,7 @@ environment=a="1",b="2"
 
 - 点击 **Deploy app** 完成部署
 
-### docker部署
+### 5. docker部署
 
 参考下面命令，映射`/app/data`目录到宿主机避免重启docker数据丢失！
 
@@ -118,7 +122,7 @@ docker run -itd \
  iicm/pan-index:latest
 ```
 
-### 从源码运行
+### 6. 从源码运行
 
 - 安装git和golang
 
@@ -143,6 +147,4 @@ docker run -itd \
   $ nohup ./PanIndex &
   ```
 
-  更多平台编译参考：
-
-  PanIndex-release-action
+  

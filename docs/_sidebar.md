@@ -26,9 +26,12 @@
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
+  * **GITHUB**
+    - [My Github](note/git/mygithub.md)
+    - [github自定义域名的那点事](note/git/gitdomain.md)
   * **Tpyecho**
-  * [**Github**](note/git/github.md)
 * **资源收集**
+  
   * [软件](ziyuan/soft.md)
     - [VScode安装配置记录](ziyuan/vscode.md)
   * [系统](ziyuan/system.md)
