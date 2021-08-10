@@ -26,7 +26,7 @@ Github自定义域名的方法网上一搜一大把，但是从18年开始Github
 
 ### Github Pages配置
 
-![](C:\Users\Administrator\Desktop\Snipaste_2021-08-11_01-23-32.jpg)
+![](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/Snipaste_2021-08-11_01-23-32.jpg)
 
 #### 1. 开启 Github Pages 功能
 
@@ -53,7 +53,7 @@ Github自定义域名的方法网上一搜一大把，但是从18年开始Github
 
 !> 这里就是我前面提到的问题，如上图中所示，我的 `Enforce HTTPS`是灰的无法勾选，经过下面的操作，就可以勾选了。
 
-![image-20210811020639101](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20210811020639101.png)
+![image-20210811020639101](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/image-20210811020639101.png)
 
 > **按照官方提示，进行如下操作：**
 >
