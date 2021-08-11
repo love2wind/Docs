@@ -12,6 +12,7 @@
   * 网站搭建
     - [API](note/site/api.md)
     - [Hexo博客搭建教程](note/site/hexo.md)
+    - [node.js安装全记录](note/site/nodejs.md)
     - [docsify](note/site/docsify.md)
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
   * 网盘相关
