@@ -2,11 +2,11 @@
 
 ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive ，可通过插件扩展功能。
 
-> **项目地址：**https://github.com/reruin/sharelist
+> **项目地址：** https://github.com/reruin/sharelist
 >
-> **文档：**https://reruin.github.io/sharelist/docs/#/zh-cn/
+> **文档： **https://reruin.github.io/sharelist/docs/#/zh-cn/
 >
-> **DEMO:**https://list.niege.ml
+> **DEMO：** https://list.niege.ml
 
 # 安装
 
@@ -97,7 +97,7 @@ sharelist通过插件支持多种挂载源。从`后台管理`->`虚拟路径`�
 
 # Q&A
 
-### 天翼云登录错误
+## 🍅天翼云登录错误
 
 打开`sharelist/plugins/drive.189cloud.js`
 
@@ -112,4 +112,3 @@ sharelist通过插件支持多种挂载源。从`后台管理`->`虚拟路径`�
 **在SSH终端输入下面命令重启PM2**
 
 `pm2 restart all`
-
