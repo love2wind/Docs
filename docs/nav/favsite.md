@@ -9,6 +9,8 @@
 > [绅士Go (shensgo.xyz)](http://www.shensgo.xyz/) 网盘资源
 >
 > [核桃影院Max-全网影片聚合平台 (123456.li)](https://123456.li/)
+>
+> [音范丝 | 首页——精选4K蓝光原盘下载,顶级收藏 (yinfans.net)](https://www.yinfans.net/) 影视下载
 
 ### :phone: ​接码网站
 
