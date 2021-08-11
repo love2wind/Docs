@@ -1,20 +1,20 @@
-* **关于本站**
+* 关于本站
   * [网站导航](nav/sitenav.md)
   * [图床测评](nav/tccp.md)
   * [网站推荐](nav/favsite.md)
-* **学习笔记**
-  * **基础知识**
+* 学习笔记
+  * 基础知识
     - [Markdown](note/jichu/markdown.md)
     - [Emoji](note/jichu/emoji.md)
     - [Google Fonts](note/jichu/googlefont.md)
     - [Linux常用命令](note/jichu/linux.md)
     - [常用脚本收集](note/jichu/shell.md)
-  * **网站搭建**
+  * 网站搭建
     - [API](note/site/api.md)
     - [Hexo博客搭建教程](note/site/hexo.md)
     - [docsify](note/site/docsify.md)
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
-  * **网盘相关**
+  * 网盘相关
     - [微软开发者E5申请](/note/imgpan/e5.md)
     - [E5SubBOT](/note/imgpan/e5bot.md)
     - [Oneindex](/note/imgpan/oneindex.md)
@@ -23,15 +23,15 @@
     - [OneManager-PHP](/note/imgpan/onemanager.md)
     - [PanIndex](/note/imgpan/panindex.md)
     - [ShareList](/note/imgpan/sharelist.md)
-  * **宝塔面板**
+  * 宝塔面板
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
-  * **GITHUB**
+  * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
-  * **Tpyecho**
-* **资源收集**
+  * TYPECHO
+* 资源收集
   
   * [软件](ziyuan/soft.md)
     - [VScode安装配置记录](ziyuan/vscode.md)
