@@ -1,6 +1,6 @@
 ## 前言
 
-写这篇文章的起因是，家里电脑重新安装系统后，在搭建环境的过程中Node.js安装出现错误，公司电脑上当时没有问题啊，大概率是环境变量设置的问题，Google之后发现是在设置环境变量的时候输入错误导致的问题，果断卸载，然后重新安装，最后在这里记录一下，以备后用。
+写这篇文章的起因是，家里电脑重新安装系统后，在搭建环境的过程中Node.js安装出现错误，公司电脑上当时没有问题啊，大概率是环境变量设置的问题，Google之后发现是在设置环境变量的时候输入错误导致的缓存问题，这个留到后面说。重新安装一遍，顺便记录一下安装过程，以备后用。
 
 ## 一、什么是Node.js？
 
@@ -83,11 +83,15 @@ cache=D:\nodejs\node_cache
 
 和上面配置全局路径一样，我们可以直接用命令
 
-`npm config set registry=http://registry.npm.taobao.org`
+````shell
+npm config set registry=http://registry.npm.taobao.org
+````
 
 或者修改npmrc文件，添加参数
 
 `registry=http://registry.npm.taobao.org`
+
+设置完可以用命令`npm config list` 查看配置参数
 
 #### 5.设置环境变量
 
@@ -101,10 +105,148 @@ cache=D:\nodejs\node_cache
 
 ![image-20210812030534423](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/202108120308356.png)
 
-##  后记
+#### 重新全局安装npm
+
+因为我们改变了，全局目录，所以在这里使用如下命令重新全局安装下npm
+
+```shell
+npm install npm -g
+```
+
+## 常见问题
+
+### 缓存问题
+
+这里就说下前面提到的安装错误，如下图的错误码，这就是**缓存的问题，清下缓存就解决了**。
+
+<img src="https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/76481dc78b26dc59c7d405f8dc0a6632.jpg" alt="错误截图" style="zoom: 67%;" />
+
+#### 解决方法：
+
+- **方法一：**删除`C:\Users\{账户}\.npmrc`文件，切记不是nodejs安装目录npm模块下的那个npmrc文件。
+- **方法二：**控制台输入：`npm cache clean --force`
+
+### 安装中用的几个常用命令
+
+```shell
+#查看配置
+npm config list
+#查看镜像服务器
+npm config get registry
+#查看能否获取镜像服务器中的模块信息，下面的就是要查看的模块名称
+npm info vue
+#清理缓存
+npm cache clean --force
+#查看全局模块目录里有什么模块
+npm list -global
+```
+
+## 后记
 
 到这里node.js的安装就算彻底完成了，本地测试没有问题，如果你有什么问题可以再按照上面的流程仔细核对一遍，应该就能解决了。
 
 你可以按照 [这篇文章](https://docs.love2wind.com/#/note/site/docsify) 快速上手安装一个docsify进行测试。
 
 如果在安装配置过程中还有不明白的地方，欢迎在本站留言交流！
+
+
+
+## 附录
+
+### 网上几个常见报错及解决方案
+
+>  转载自：`https://juejin.cn/post/6844903824038051848`
+
+#### 1. npm ERR! code ELIFECYCLE npm ERR! errno 1
+
+```
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! phantomjs-prebuilt@2.1.15 install: `node install.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the phantomjs-prebuilt@2.1.15 install script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+```
+
+#### 解决方案
+
+```
+npm install --save-dev node-sass
+```
+
+#### 2. npm run dev error [npm ERR! code ELIFECYCLE]
+
+```
+Laravel Mix Version: 1.4.3 
+Node Version: v8.9.1 
+NPM Version: 5.5.1 
+OS: macOS 10.12.6
+
+Description: 
+ze Chunks Chunk Names 
+mix.js 8.27 kB 0 [emitted] mix 
+npm ERR! code ELIFECYCLE 
+npm ERR! errno 2 
+npm ERR! @ development: cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js 
+npm ERR! Exit status 2 
+npm ERR! 
+npm ERR! Failed at the @ development script. 
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in: 
+npm ERR! /Users/sunny/.npm/_logs/2017-12-21T17_00_33_319Z-debug.log 
+npm ERR! code ELIFECYCLE 
+npm ERR! errno 2 
+npm ERR! @ dev: npm run development 
+npm ERR! Exit status 2 
+npm ERR! 
+npm ERR! Failed at the @ dev script. 
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in: 
+npm ERR! /Users/sunny/.npm/_logs/2017-12-21T17_00_33_347Z-debug.log
+```
+
+**node_modules安装问题，执行以下：**
+
+```
+rm -rf node_modules
+rm package-lock.json
+npm cache clear --force
+npm install
+```
+
+这一步清除npm缓存很重要
+
+```
+npm cache clear --force
+```
+
+#### 3. npm install时,报错 install: `node install.js`安装失败
+
+```
+ error chromedriver@2.33.2 install: `node install.js`
+ error Exit status 1
+ error Failed at the chromedriver@2.33.2 install script.
+ error This is probably not a problem with npm. There is likely additional logging output above.
+```
+
+初步判断是这个zip文件没下载下来，然后手动下载一个`chromedriver_win32.zip`丢到`C:\Users\用户\AppData\Local\Temp\chromedriver\`目录下，结果因为这是一个临时文件夹，每次初始化的时候都会重新下载这个文件，从而又无法初始化。
+
+**解决方案 ：**
+
+1. **加参数**
+
+```
+  npm install --ignore-scripts
+```
+
+  --ignore-scripts表示npm将不会运行在package.json中指定的scripts脚本
+
+**2. 更换数据源**
+
+```
+npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
+```
+
