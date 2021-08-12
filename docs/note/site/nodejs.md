@@ -36,7 +36,7 @@
 
 ![image-20210812012936794](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/202108120308976.png)
 
-####  3.测试
+####  3.验证
 
 安装成功后，我们来测试一下安装是否成功呢？快捷键`WIN+R`调出运行窗口，输入`cmd`，输入`node -v` 和 `npm -v` ，如下图所示，如果能看到node和npm的版本号，说明你已经安装成功了。
 
@@ -101,6 +101,10 @@ cache=D:\nodejs\node_cache
 
 ![image-20210812030534423](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/202108120308356.png)
 
-##  完成
+##  后记
 
-以上node.js的安装，笔者已亲测可用，希望本篇博客对您有所帮助，在安装配置过程中，若遇到问题，欢迎留言交流！
+到这里node.js的安装就算彻底完成了，本地测试没有问题，如果你有什么问题可以再按照上面的流程仔细核对一遍，应该就能解决了。
+
+你可以按照 [这篇文章](https://docs.love2wind.com/#/note/site/docsify) 快速上手安装一个docsify进行测试。
+
+如果在安装配置过程中还有不明白的地方，欢迎在本站留言交流！
