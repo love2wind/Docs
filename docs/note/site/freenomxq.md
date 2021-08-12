@@ -2,7 +2,7 @@
 
 ## 🍭 效果
 
-![邮件示例](https://camo.githubusercontent.com/6fc6d19ebf59fcc4f7c598ee10239cf08ff1ab7c99c485d04400102af05e5031/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133395272642e706e67)
+![邮件截图](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/95db23d0395eae0719bcc9a0e1b690db.webp)
 
 无论是续期成败或者脚本执行出错，都会收到的程序发出的邮件。如果是续期成败相关的邮件，邮件会包括未续期域名的到期天数等内容。 邮件参考了微信发送的注销公众号的邮件样式。
 
@@ -24,7 +24,7 @@
 - 对所有邮件启用 POP
 - 启用 IMAP
 
-![gmail配置01](https://camo.githubusercontent.com/9dd9133768961d8588901418e90d6ad1db8d78337777d5b87c17d2e28b157c28/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133744b73672e706e67)
+![gmail配置01](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/15bd3d5798d4433b13de2f4a1708021b.webp)
 
 然后保存更改。
 
@@ -32,7 +32,7 @@
 
 登录谷歌邮箱后，访问 [谷歌权限设置界面](https://myaccount.google.com/u/0/lesssecureapps?pli=1&pageId=none) ，启用允许不够安全的应用。
 
-![gmail配置02](https://camo.githubusercontent.com/1ec85c95621bfc1683b4b6d290a37a1ae09ee7d6e6884983742934dff15c137f/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f313339324b482e706e67)
+![gmail配置02](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/f1752253a0922a0c252bfea87af0c6f4.webp)
 
 另外，若遇到提示
 
@@ -44,29 +44,29 @@
 
 在`设置>账户>POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务`下，开启`POP3/SMTP服务`
 
-![qq邮箱配置01](https://camo.githubusercontent.com/d919fed60cb19ef83a4d12108aaa9c4224431b54393f5d7e2a543ce6ec477755/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f313363494b412e706e67)
+![qq邮箱配置01](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/dcd6437c2d28b98acd3af1c9e2610cb5.webp)
 
 此时坑爹的QQ邮箱会要求你用手机发送一条短信给腾讯，发送完了点一下`我已发送`
 
-![qq邮箱配置02](https://camo.githubusercontent.com/f2875b489cef9c91cea4dad6fc2c54a3e9e5d1a68ffde368fe8ae2f009e179c8/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133633476642e706e67)
+![qq邮箱配置02](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/ba30690e9359d2c22dfa3953f922efb5.webp)
 
 然后你就能看到你的邮箱授权码了，使用邮箱账户加授权码即可登录，记下授权码
 
-![qq邮箱配置03](https://camo.githubusercontent.com/ed25fdf0dfda956cc8c23b50214c162cc648a45563c1cd66fa97b5b73ef34399/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133635462742e706e67)
+![qq邮箱配置03](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/326881bc412b04a130ed6ed3a5776d3c.webp)
 
-![qq邮箱配置04](https://camo.githubusercontent.com/be02667e951699cc8a13841ce664d385dd67f20de46eb69d5b0b777b0d7a78d0/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133636f44492e706e67)
+![qq邮箱配置04](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/77574cd7a97319702cc8cc5dc5beae72.webp)
 
 #### 设置163邮箱
 
 在`设置>POP3/SMTP/IMAP`下，开启`POP3/SMTP服务`和`IMAP/SMTP服务`并保存
 
-![163邮箱配置01](https://camo.githubusercontent.com/41ffb7ab319d5ec7ab64c0679eed59500f5ceb4f95e933ca74afe671b58abb9a/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133574b5a6e2e706e67)
+![163邮箱配置01](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/a33fdaae5b631a20b446abe0d526a1f2.webp)
 
-![163邮箱配置02](https://camo.githubusercontent.com/79dab5c92eecb2f0b5926a52a6b15d7164d4bf4bd93eeaacfc3d4378d48d774c/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133575149302e706e67)
+![163邮箱配置02](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/18f1df290e6116b87ae52742eb922226.webp)
 
 现在点击侧边栏的`客户端授权密码`，并获取授权码，你看到画面可能和我不一样，因为我已经获取了授权码，所以只有`重置授权码`按钮，这里自己根据网站提示申请获取授权码，网易和腾讯一样恶心，需要你用手机给它发一条短信才能拿到授权码
 
-![163邮箱配置03](https://camo.githubusercontent.com/185fe465f20f4f41a4b38cce017c381cade18b2a912908551a75b13d654abd32/68747470733a2f2f73322e617831782e636f6d2f323032302f30312f33312f3133574d61712e706e67)
+![163邮箱配置03](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/ecf7f66f6f7be364049e5b8d4c6e60ca.webp)
 
 163 邮箱送信后，接收方如果没收到可以在垃圾邮件里面找一下。
 
@@ -88,11 +88,11 @@
 
 直接访问腾讯云函数控制台创建云函数： https://console.cloud.tencent.com/scf/list-create ， 按照下图所示的说明进行创建。
 
-![scf01](https://camo.githubusercontent.com/4bd08db7e038f9f968a5be3025dceca064e6007e15cf8d22c92d39fd28d6c208/68747470733a2f2f7a332e617831782e636f6d2f323032312f30362f30312f326e4b4346302e706e67)
+[![scf01](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/40f6c2739689dd542c32abda4927972d.webp)](https://z3.ax1x.com/2021/06/01/2nKCF0.png)
 
 按照上图所示部署完成后，可以点击云函数的名称进入云函数管理画面，管理画面往下翻可看到`部署`与`测试`按钮，点击`测试`，稍等几秒钟，即可看到输出日志， 根据输出日志判断配置以及部署是否正确。
 
-![scf02](https://camo.githubusercontent.com/dafab5ddf63b4eae8ab49430183505a2a4c312be0642f9ec97074a2a8f5fc99d/68747470733a2f2f7a332e617831782e636f6d2f323032312f30362f30312f326e475a33712e706e67)
+![scf02](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/d48fcd7dad3f72564abd34c286fb16d6.webp)
 
 *有关腾讯云函数部署的内容结束。*
 
