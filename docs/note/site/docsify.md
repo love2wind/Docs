@@ -16,7 +16,7 @@ Docsify 是一个 **运行时** 的静态网站构建工具，它不会把 markd
 
 docsify框架需要有node环境的支持,在[**node.js**](https://nodejs.org)的官网下载安装包，此处下载Windows版本的，点下一步一路安装下去，配置下环境变量即可。
 
-**教程：**[npm安装教程 ](https://www.cnblogs.com/goldlong/p/8027997.html)
+**教程：**[npm安装教程 ](https://docs.love2wind.com/#/note/site/nodejs)
 
 ## 3、步骤
 
