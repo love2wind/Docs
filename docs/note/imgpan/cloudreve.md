@@ -1,42 +1,17 @@
-<h1 align="center">
-  <br>
-  <a href="https://cloudreve.org/" alt="logo" ><img src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/></a>
-  <br>
-  Cloudreve
-  <br>
-</h1>
 
-<h4 align="center">支持多家云存储驱动的公有云文件系统.</h4>
-
-<p align="center">
-  <a href="https://travis-ci.com/github/cloudreve/Cloudreve/">
-    <img src="https://img.shields.io/travis/com/cloudreve/Cloudreve?style=flat-square"
-         alt="travis">
-  </a>
-  <a href="https://codecov.io/gh/cloudreve/Cloudreve"><img src="https://img.shields.io/codecov/c/github/cloudreve/Cloudreve?style=flat-square"></a>
-  <a href="https://goreportcard.com/report/github.com/cloudreve/Cloudreve">
-      <img src="https://goreportcard.com/badge/github.com/cloudreve/Cloudreve?style=flat-square">
-  </a>
-  <a href="https://github.com/cloudreve/Cloudreve/releases">
-    <img src="https://img.shields.io/github/v/release/cloudreve/Cloudreve?include_prereleases&style=flat-square">
-  </a>
-</p>
-
-![Screenshot](https://raw.githubusercontent.com/cloudreve/docs/master/images/homepage.png)
+![home](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/dd239c7b317b0e7171891b415cb793d0.webp)
 
 ## ⚙️简介
 
-> 官网：https://cloudreve.org/
->
-> github：https://github.com/cloudreve/Cloudreve
->
-> 下载：https://github.com/cloudreve/Cloudreve/releases
->
-> 文档：https://docs.cloudreve.org
->
-> 演示：[https://pan.love2wind.com](https://pan.love2wind.com/)
+Cloudreve 可以让您快速搭建起公私兼备的网盘系统。Cloudreve 在底层支持不同的云存储平台，用户在实际使用时无须关心物理存储方式。你可以使用 Cloudreve 搭建个人用网盘、文件分享系统，亦或是针对大小团体的公有云系统。
 
-Cloudreve 是个公有网盘程序，你可以用它快速搭建起自己的网盘服务，公有云/私有云都可。作者用了六个月的时间，把 Cloudreve 用 Go 语言重构了一遍，除了修复 V2 版本被诟病很多的 Bug 外，还增加了很多令人兴奋的新特性：[宝塔面板Cloudreve+Aria2配置离线下载 - 大鸟博客 (daniao.org)](https://www.daniao.org/13249.html)
+> **官网：**https://cloudreve.org/
+>
+> **github：**https://github.com/cloudreve/Cloudreve
+>
+> **下载：**https://github.com/cloudreve/Cloudreve/releases
+>
+> **文档：**https://docs.cloudreve.org
 
 ## :sparkles: 特性
 
@@ -54,131 +29,132 @@ Cloudreve 是个公有网盘程序，你可以用它快速搭建起自己的网�
 * :rocket: All-In-One 打包，开箱即用
 * 🌈 ... ...
 
-## ⚗️准备
+## 🛠️部署
 
-安装之前你需要准备好环境：
-
-1. 宝塔面板安装好（宝塔服务器面板，一键全能部署及管理，送你3188元礼包，点我领取https://www.bt.cn/?invite_code=MV9mbmFramU=）
-2. 在宝塔面板安装nginx+mysql并启动成功
-3. 域名一个（任意域名）
-4. 在宝塔面板里新建网站和mysql数据库
-
-## 🛠️安装和部署
-
-#### 3、命令安装
+### 1.命令安装
 
 SSH登录到服务器，复制并执行下面的命令即可完成安装。
 
-**注意**：版本一直迭代，需要到下载页面获取最新版本的程序
+```shell
+#进入安装目录
+cd /opt
 
-```
-cd /opt   #进入安装目录
-wget  https://github.com/cloudreve/Cloudreve/releases/download/3.2.0/cloudreve_3.2.0_linux_amd64.tar.gz   #远程拉取cloudreve，这里替换成最新版
-tar -zxvf cloudreve_3.2.0_linux_amd64.tar.gz   #解压获取到的主程序
-chmod +x ./cloudreve  #赋予执行权限
-./cloudreve   #启动 Cloudreve
-```
+#下载最新版cloudreve，记得替换成最新版地址
+wget  https://github.com/cloudreve/Cloudreve/releases/download/3.3.2/cloudreve_3.3.2_linux_arm64.tar.gz   
 
-![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-1.png)
+#解压获取到的主程序
+tar -zxvf cloudreve_VERSION_OS_ARCH.tar.gz
 
-Cloudreve 在首次启动时，会创建初始管理员账号，请注意保管管理员密码，此密码只会在首次启动时出现。如果您忘记初始管理员密码，需要删除同级目录下的“cloudreve.db”，重新启动主程序以初始化新的管理员账户。
+# 赋予执行权限
+chmod +x ./cloudreve
 
-Cloudreve 默认会监听“5212”端口。你可以在浏览器中访问“http://服务器IP:5212”进入 Cloudreve。如果宝塔面板需要在安全中放行“5212”端口。注意用默认的管理账号和密码登录。
-
-#### 4、宝塔面板安装
-
-以上步骤是在命令环境下执行的，其实如果我们用宝塔的话，不需要在命令环境下执行，这里简单介绍下。
-
-1）新建好网站后，下载程序到自己的网站根目录，然后解压缩。
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-1.png)](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-1.png)
-
-2）设置网站根目录下的<cloudreve>具有写权限，你可以设置为www、755~~
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-1-1.png)](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-1-1.png)
-
-下面就可以设置进程守护即可启动程序了。
-
-#### 5、进程守护
-
-以上步骤操作完后，你可能需要一些更为具体的配置，才能让Cloudreve更好的工作，宝塔面板我们可以使用Supervisor管理器来设置进程守护，具体流程请参考下面的配置流程。
-
-**1）安装Supervisor管理器**
-
-软件商店→系统工具 ，找到Supervisor管理器安装即可。
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-2.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-2.png)
-
-**2） 添加守护进程**
-
-打开Supervisor管理器添加守护进程，看图：
-
-注意，运行目录我们一般放在网站根目录，本教程放在了opt目录。这里直接注意一下。
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-3.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-3.png)
-
-**注意**：路径修改为自己的。添加完成后，守护进程就会启动成功，如图：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-4.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-4.png)
-
-**注意**：设置守护进程之前，请先停止掉命令模式。
-
-**3）管理员账号和密码**
-
-进程守护之后，我们需要获取管理员的账号和密码，可以在Supervisor管理器的日志查看中看到你的账号和密码。
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-3.png)](https://www.daniao.org/wp-content/uploads/2020/03/coudreve-32-3.png)
-
-#### 6、域名访问
-
-新建网站，之后在网站设置中，配置反向daili，如图：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-5.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-5.png)
-
-#### 7、效果展示
-
-现在就可以用域名打开Cloudreve 访问了：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-8.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-8.png)
-
- 
-
-管理面板：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-9.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-9.png)
-
- 
-
-支持的存储策略：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-10.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-10.png)
-
-添加oneindex存储策略时详细的引导：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-11.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-11.png)
-
-创建WebDAV：
-
-[![宝塔面板安装Cloudreve V3(go版本) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-12.png)](https://www.daniao.org/wp-content/uploads/2020/03/Cloudreve-V3-go-12.png)
-
-注意：目前 V3 仍处于 RC 版本阶段，V2版本的升级措施会随着正式版一起发布。
-
-#### 8、一些细节
-
-首次启动时，Cloudreve 会在同级目录下创建名为“conf.ini”的配置文件，你可以修改此文件进行一些参数的配置，保存后需要重新启动 Cloudreve 生效。
-
-默认情况下，Cloudreve 会使用内置的 SQLite 数据库，并在同级目录创建数据库文件“cloudreve.db”，如果您想要使用 MySQL，请在配置文件中加入以下内容，并重启 Cloudreve。
-
-```
-[Database]#数据库类型，目前支持 sqlite | mysqlType = mysql#用户名User = root#密码Password = root#数据库地址Host = 127.0.0.1#数据库名称Name = v3#数据表前缀TablePrefix = cd
+# 启动 Cloudreve
+./cloudreve
 ```
 
-注意：更换数据库配置后，Cloudreve 会重新初始化数据库，原有的数据将会丢失。
+![命令安装) – 支持六大云存储存/OneDrive世纪互联/aria2等](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/cbf72a57670bc5384293dac3cf265c69.webp)
 
-#### 9、最后
+就是这么简单，几行命令就部署完成了。
 
-从使用体验来看，效果很不错，功能强大，支持存储种类也多，唯一不足的地方竟然不支持Google Drive 。作者更是说目前不支持，未来也不会支持。
+Cloudreve 在首次启动时，会创建初始管理员账号，请注意保管管理员密码，此密码只会在首次启动时出现。如果您忘记初始管理员密码，需要删除同级目录下的“**cloudreve.db**”，重新启动主程序以初始化新的管理员账户。
 
-安装真的是很简单了，比之前的v2版本安装简单的多。不过目前还是测试版，所以有bug是很正常的。
+Cloudreve 默认会监听 `5212` 端口。你可以在浏览器中访问 `http://服务器IP:5212` 进入 Cloudreve。如果宝塔面板需要在安全中放行 `5212` 端口。注意用默认的管理账号和密码登录。
 
-场景使用：可以使用 Cloudreve 搭建个人用网盘、文件分享系统，亦或是针对大小团体的公有云系统。
+### 2.宝塔面板安装
+
+鉴于现在大家多用宝塔面板部署管理网站，这里就把宝塔面板下的cloudreve部署方法再说一下。
+
+#### 1) 环境准备
+
+1. 安装好宝塔面板的VPS一台。（宝塔服务器面板，一键全能部署及管理，送你3188元礼包，点我领取https://www.bt.cn/?invite_code=MV9mbmFramU=）
+2. 在宝塔面板里部署好环境，Nginx+Mysql并成功启动。
+3. 安装Supervisor管理器（**软件商店→系统工具 ，找到Supervisor管理器安装**）
+4. 任意域名一个（可选）
+5. 在宝塔面板里新建网站和mysql数据库
+
+#### 2) 下载和权限
+
+- 新建好网站后，进入网址目录，远程下载程序到自己的网站根目录，然后解压缩。
+
+- 将解压后根目录下 `cloudreve>`  文件权限设置成www、755，如下图所示。
+
+![下载和设置权限](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/059c692fc05ff3a1526863db1bbb083b.webp)
+
+#### 3) 进程守护
+
+下面我们就可以通过向宝塔面板的Supervisor管理器添加守护进程来启动并监控Cloudreve，具体流程请参考下图。
+
+![添加守护进程](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/96c27b78ff8c8b61f28f84b836a87cd0.webp)
+
+##### 添加流程：
+
+? > 宝塔面板——软件商店——找到Supervisor——点击设置——Supervisor管理器——添加守护进程
+
+##### 注意：
+
+- 运行目录我们一般放在网站根目录，大家根据自己实际情况改动
+- 启动命令这里填`cloudreve`即可，不过推荐填写完整的绝对路径，不然容易出现各种问题
+- 进程守护之后，可以在Supervisor管理器的日志查看中看到你的账号和密码
+
+到这里，宝塔面板的Cloudreve已经部署完成了，可以访问http://你的服务器IP:5212来访问了，那我们怎么用域名访问呢？这就要看下一步要做的了。
+
+#### 4) 域名访问
+
+在网站设置中添加反向DAILI后你就可以使用域名访问Cloudreve网站了，见下图。
+
+![反向DAILI](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/098cf20f5a1b0f3754a314f750757215.webp)
+
+#### 5) 后台设置
+
+现在就可以用域名打开Cloudreve，使用管理员账号密码登录后进入管理后台，设置好各项参数后就算完成Cloudreve部署了。
+
+![Snipaste_2021-08-12_17-10-31](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/8234fbc8263daafe775b7ad44758e4b2.webp)
+
+## 存储策略对比
+
+Cloudreve支持以下存储策略：本机、从机、七牛、腾讯OSS、阿里COS、又拍云、OneDrive、S3。具体的存储策略设置按照后台的设置流程操作就好，没有什么难度，这里贴一下官网的对比图。
+
+#### **基本对比**
+
+|                | 本机 | 从机 | 七牛 | OSS  | COS  | 又拍云 | OneDrive | S3   |
+| -------------- | ---- | ---- | ---- | ---- | ---- | ------ | -------- | ---- |
+| 上传           | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 下载           | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 复制           | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 移动           | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 普通预览       | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| Office 预览    | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 删除           | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 缩略图         | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ❌    |
+| 打包下载       | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 真实文件名下载 | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ❌        | ✅    |
+| 理论最大文件   | 无限 | 无限 | 无限 | 5GB  | 5GB  | 150GB  | 未知     | 未知 |
+| 公网接入要求   | 无   | 无   | 需要 | 需要 | 需要 | 需要   | 需要     | 需要 |
+
+#### **高级功能**
+
+|          | 本机 | 从机 | 七牛 | OSS  | COS  | 又拍云 | OneDrive | S3   |
+| -------- | ---- | ---- | ---- | ---- | ---- | ------ | -------- | ---- |
+| 离线下载 | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 下载限速 | ✅    | ✅    | ❌    | ✅    | ✅    | ❌      | ❌        | ❌    |
+| 直链获取 | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ❌    |
+| 解压缩   | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+| 压缩     | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅        | ✅    |
+|          |      |      |      |      |      |        |          |      |
+
+#### **流量路径**
+
+|                      | 本机 | 从机 | 七牛 | OSS  | COS  | 又拍云 | OneDrive      | S3   |
+| -------------------- | ---- | ---- | ---- | ---- | ---- | ------ | ------------- | ---- |
+| Web 上传客户端直传   | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | >= 4MB 时直传 | ✅    |
+| 下载直传             | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅             | ✅    |
+| 打包下载/压缩/解压缩 | 直传 | 中转 | 中转 | 中转 | 中转 | 中转   | 中转          | 中转 |
+| 离线下载             | 直传 | 中转 | 中转 | 中转 | 中转 | 中转   | 中转          | 中转 |
+| 文本编辑             | 直传 | 中转 | 中转 | 中转 | 中转 | 中转   | 中转          | 中转 |
+| WebDAV 上传直传      | ✅    | ❌    | ❌    | ❌    | ❌    | ❌      | ❌             | ❌    |
+| WebDAV 下载直传      | ✅    | ✅    | ✅    | ✅    | ✅    | ✅      | ✅             | ✅    |
+
+## 写在最后
+
+整体来说Cloudreve还是很强大的，功能丰富，运行稳定，是自建网盘系统的不错选择。你还可以安装Aria2后配合Cloudreve的离线下载将文件下载到Onedrive里在线观看等，更多惊喜就等你来发掘了。
+
