@@ -13,7 +13,7 @@ Cloudreve 可以让您快速搭建起公私兼备的网盘系统。Cloudreve 在
 >
 > **文档：**https://docs.cloudreve.org
 
-## :sparkles: 特性
+## 🌈特性
 
 * :cloud: 支持本机、从机、七牛、阿里云 OSS、腾讯云 COS、又拍云、OneDrive (包括世纪互联版) 作为存储端
 * :outbox_tray: 上传/下载 支持客户端直传，支持下载限速
