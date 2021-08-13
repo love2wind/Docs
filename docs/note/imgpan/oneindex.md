@@ -41,6 +41,29 @@ OneIndex是一款专门映射挂载 **Onedrive** 网盘的一个开源程序。�
 
 !> **后台的初始密码是 `oneindex` ,记得登录后修改密码哦。**
 
+## 特殊文件实现功能  
+
+`README.md`、`HEAD.md` 、 `.password`特殊文件使用
+
+可以参考https://github.com/donwa/oneindex/tree/files
+
+**在文件夹底部添加说明:** 
+
+> 在 OneDrive 的文件夹中添加`README.md`文件，使用 Markdown 语法。
+
+**在文件夹头部添加说明:** 
+
+> 在 OneDrive 的文件夹中添加`HEAD.md` 文件，使用 Markdown 语法。
+
+**加密文件夹:** 
+
+> 在 OneDrive 的文件夹中添加`.password`文件，填入密码，密码不能为空。  
+
+**直接输出网页:**
+
+> 在 OneDrive 的文件夹中添加`index.html` 文件，程序会直接输出网页而不列目录。
+> 配合 文件展示设置-直接输出 效果更佳。
+
 ## 设置伪静态
 
 进入网站设置，点开伪静态标签，复制下面代码后保存，然后在oneindex后台设置将`去掉地址栏中的/?/`这个选项打开。

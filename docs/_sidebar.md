@@ -17,6 +17,7 @@
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
   * 网盘相关
     - [微软开发者E5申请](/note/imgpan/e5.md)
+    - [注册Azure应用获取API](/note/imgpan/azureapi.md)
     - [E5SubBOT](/note/imgpan/e5bot.md)
     - [Oneindex](/note/imgpan/oneindex.md)
     - [Cloudreve](/note/imgpan/cloudreve.md)
