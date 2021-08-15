@@ -32,9 +32,10 @@
   * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
+  * Google
+    - [Google Voice迁移及保号教程](note/google/gv.md)
   * TYPECHO
 * 资源收集
-  
   * [软件](ziyuan/soft.md)
     - [VScode安装配置记录](ziyuan/vscode.md)
   * [系统](ziyuan/system.md)
