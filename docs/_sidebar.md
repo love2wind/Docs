@@ -9,6 +9,7 @@
     - [Google Fonts](note/jichu/googlefont.md)
     - [Linux常用命令](note/jichu/linux.md)
     - [常用脚本收集](note/jichu/shell.md)
+    - [各邮箱POP设置](note/jichu/pop3.md)
   * 网站搭建
     - [API](note/site/api.md)
     - [Hexo博客搭建教程](note/site/hexo.md)
