@@ -12,7 +12,6 @@
     - [各邮箱POP设置](note/jichu/pop3.md)
     - [常用颜色的RGB数值](note/jichu/color.md)
   * 网站搭建
-    - [API](note/site/api.md)
     - [Hexo博客搭建教程](note/site/hexo.md)
     - [node.js安装全记录](note/site/nodejs.md)
     - [docsify](note/site/docsify.md)
@@ -32,6 +31,8 @@
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
+  * [API相关](note/api)
+    - [随机图片API](note/site/randomimg.md)
   * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
