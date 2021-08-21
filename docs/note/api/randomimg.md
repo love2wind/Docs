@@ -31,7 +31,7 @@ addEventListener(
 - 图片的数量：`var max=253` 将这部分改成你上传的图片数量
 - 如果你使用其他服务器，可以改 `raw.githubusercontent.com`为对应的域名
 
-> 调用的时候后缀无所谓，
+> 演示：
 
 #### 2.使用图片直链
 
@@ -58,7 +58,7 @@ async function handleRequest(request) {
 
 替换代码中的 `background_urls` 图片直链为你的直链就好
 
-
+> 演示：https://autoimg.love2wind.workers.dev/img.jpg
 
 ### 使用PHP文件自建API
 
@@ -110,4 +110,6 @@ default:
 ```
 
 **将 `img.txt` 和 `index.php` 放在同一个网站目录下，通过访问 `域名/index.php` 即可**
+
+> 演示：https://api.imgsrc.xyz/img.php
 

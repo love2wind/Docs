@@ -38,6 +38,7 @@
     - [github自定义域名的那点事](note/git/gitdomain.md)
   * Google
     - [Google Voice迁移及保号教程](note/google/gv.md)
+    - [使用CF Worker反代](note/google/work2google.md)
   * TYPECHO
 * 资源收集
   * [软件](ziyuan/soft.md)
