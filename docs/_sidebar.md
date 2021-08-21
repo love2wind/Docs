@@ -32,7 +32,7 @@
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
   * [API相关](note/api)
-    - [随机图片API](note/site/randomimg.md)
+    - [随机图片API](note/api/randomimg.md)
   * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
