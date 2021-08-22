@@ -31,7 +31,7 @@
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
-  * [API相关](note/api)
+  * [API相关](note/api/README.md)
     - [随机图片API](note/api/randomimg.md)
   * GITHUB
     - [My Github](note/git/mygithub.md)
