@@ -40,3 +40,8 @@ proxy = socks5://127.0.0.1:1082
 proxy = socks5://127.0.0.1:1081
 ```
 
+### 设置badge图片
+
+- https://shields.io/
+- https://shields.encaiddd.top
+
