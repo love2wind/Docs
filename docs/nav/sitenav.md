@@ -75,7 +75,19 @@ https://list.imgsrc.xyz
 
 https://nierss.ga/
 
-> 搜狐、Vim、Prnt、Imgur、Github、Gitee、本地目前可用。
+> ~~搜狐、Vim、Prnt、Imgur、Github、Gitee、本地目前可用。~~
+>
+> 目前只有github、gitee可用，所以该项目等于彻底废了，既然只能用Github索性就搭建了一个只有Git的图床，也就是下面的烟雨图床。
+
+- ### 简洁图床
+
+https://img.niege.ml
+
+> 基于烟雨大佬的烟雨图床程序搭建而成，仅支持Github。开放游客上传，大家可以尽管造。
+
+- ### KIENG
+
+> 基于[KIENG](https://github.com/BlueSkyXN/KIENG-FigureBed)搭建的多个公共源的聚合图床，调用**KIENG**大佬的api。
 
 - ###  Lsky Pro
 
