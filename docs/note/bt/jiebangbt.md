@@ -120,3 +120,118 @@ echo "{\"uid\":1000,\"username\":\"admin\",\"serverid\":1}" > /www/server/panel/
 ```
 
 **3）ssh连接到服务器，输入bt命令，接着输入9，清除面板缓存即可。**
+
+## 宝塔面板破解付费插件
+
+打开`/www/server/panel/class`找到`panelplugin.py`这个文件 。（宝塔会自动更改文件，建议关闭宝塔被此文件的写入功能）
+
+在文件中`搜索`以下代码
+
+```
+softList['list'] = tmpList
+```
+
+在这段代码**下面加入**以下代码
+
+```
+#专业版破解
+softList['pro'] = 1
+        for soft in softList['list']:
+            soft['endtime'] = 0
+#企业版破解
+softList['ltd'] = 99999999999
+        for soft in softList['list']:
+            soft['endtime'] = 0
+```
+
+PS ：
+
+*安装后，你的宝塔界面**可能不会**显示宝塔**专业版**或者**企业版**图标，但**实际**上你**已经获得**特权！但如果你想**获得特权图标**，请查看网站**右侧目录栏**，**单击图标修改**。如果您安装**网站监控报表**插件后**不能直接使用**， 我会单列一个目录介绍 **开启方法**，请点击右侧**目录**栏>**开启网站监控报表***
+
+## 开启网站监控报表
+
+**安装**网站监控报表后
+
+打开`/www/server/panel/plugin/total/`中的 `total_main.py`
+
+1. 旧版统计插件破解方法
+
+   在文件中搜索以下代码
+
+   ```
+   if 'bt_total' in session: return public.returnMsg(True,'OK!');
+   ```
+
+在这段代码下面加入以下代码
+
+```
+session['bt_total'] = True
+return public.returnMsg(True,'OK!');
+```
+
+如果搜索不到此段代码，则说明你是新版统计插件
+
+1. 新版统计插件破解方法
+
+   在文件中搜索以下代码（大概位置在255-265行之间）
+
+   ```
+   if cache.get('bt_total'): return public.returnMsg(True, 'OK!');
+   ```
+
+在这段代码下面加入以下代码
+
+```
+cache.set('bt_total', True)
+return public.returnMsg(True,'OK!');
+```
+
+[![请输入图片描述](https://pic.rmb.bdstatic.com/bjh/e84d102bd8105230b8af1cf1ed3ea8ab.png)](https://pic.rmb.bdstatic.com/bjh/e84d102bd8105230b8af1cf1ed3ea8ab.png)
+
+[请输入图片描述](https://pic.rmb.bdstatic.com/bjh/e84d102bd8105230b8af1cf1ed3ea8ab.png)
+
+
+
+至此，网站监控报表破解成功，重启面板即可体验!
+
+## 图标修改
+
+这个功能没有太大的用处，纯属装13的，感兴趣的可以试试
+
+找到`/www/server/panel/data`目录，编辑`plugin.json`文件
+
+搜索`"recommend"`，找到前面的`pro`和`ltd`
+
+[![plugin.json](https://pic.rmb.bdstatic.com/bjh/bb3f6c00acc649ad4d2652c16cdd02d2.png)](https://pic.rmb.bdstatic.com/bjh/bb3f6c00acc649ad4d2652c16cdd02d2.png)
+
+[plugin.json](https://pic.rmb.bdstatic.com/bjh/bb3f6c00acc649ad4d2652c16cdd02d2.png)
+
+
+
+其中**pro**表示是**专业版**，**ltd**表示是**企业版**
+
+**pro**和**ltd冒号后**的**数字**
+
+**-1**表示**无**
+
+**pro**为**0**时为**专业版永久授权**，企业版**同理**
+
+**数字**请填写**时间戳**([时间戳(Unix timestamp)转换工具 - 在线工具 (tool.lu)](https://tool.lu/timestamp/)
+
+[![专业版图标](https://pic.rmb.bdstatic.com/bjh/d96609efeb27d4108d75a670350d7caf.png)](https://pic.rmb.bdstatic.com/bjh/d96609efeb27d4108d75a670350d7caf.png)
+
+[专业版图标](https://pic.rmb.bdstatic.com/bjh/d96609efeb27d4108d75a670350d7caf.png)
+
+
+
+[![企业版图标](https://pic.rmb.bdstatic.com/bjh/07f22131cf30fc287599fd396a22bed0.png)](https://pic.rmb.bdstatic.com/bjh/07f22131cf30fc287599fd396a22bed0.png)
+
+[企业版图标](https://pic.rmb.bdstatic.com/bjh/07f22131cf30fc287599fd396a22bed0.png)
+
+
+
+## 后语
+
+如果你需要宝塔面板插件，可从此处下载
+
+([Pandora's Box (chinft.com)](http://file.chinft.com/宝塔面板))(来自chinft.com)

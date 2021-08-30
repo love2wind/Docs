@@ -112,3 +112,161 @@ sharelist通过插件支持多种挂载源。从`后台管理`->`虚拟路径`�
 **在SSH终端输入下面命令重启PM2**
 
 `pm2 restart all`
+
+
+
+# 挂载设置
+
+## 前言
+
+ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneDrive、等网盘，可通过插件扩展功能。可通过插件扩展功能。不占服务器空间；支持直链下载；在线预览（图片、视频、音频）
+
+目前支持：GoogleDrive、OneDrive（含世纪互联）、天翼云盘（含企业版家庭版）、和彩云、本地文件、Github、蓝奏云、H5ai、WebDAV、SFTP等
+
+与非门云盘演示：[https://drive.raycns.com](https://pan.ahfi.cn/)
+
+作者Github：https://github.com/reruin/sharelist
+
+## 特点
+
+- 多种网盘系统快速挂载。
+- 支持虚拟目录和虚拟文件。
+- 支持目录加密。
+- 插件机制。
+- 国际化支持。
+- WebDAV导出。
+
+## 如何安装-脚本安装
+
+```shell
+#1.Debian/Ubuntu系统（看系统）
+apt-get -y install git
+
+#1.CentOS/RHEL系统（看系统）
+yum -y install git
+
+#2.下载源码
+git clone https://gitee.com/Ling_N/sharelist.git   #国内
+git clone https://github.com/reruin/sharelist.git  #国外
+#3.执行安装
+cd sharelist && bash install.sh
+```
+
+完成后，在宝塔中安全打开 33001端口，访问 [http://ip:33001，进入界面开始设置，（首次使用时将提示选在挂载源，选择挂载源，填入对应路径即可](http://ip:33001，进入界面开始设置，（首次使用时将提示选在挂载源，选择挂载源，填入对应路径即可/)。 系统内置了本地路径（FileSystem）挂载源，比如天翼云选择：账号密码挂载（Cookie方式））记住网盘文件夹要共享一下，不然会出现 500错误。
+
+## 如何绑定域名-反向代理添加域名
+
+在宝塔中添加一个新站点，只绑定域名就好，完成后访问域名等待解析成功
+解析成功后，点网站列表右侧 设置，列表中的 反向代理，目标url设置为 [http://127.0.0.1:33001，发送域名自动生成，不用操作](http://127.0.0.1:33001，发送域名自动生成，不用操作/)
+
+[![img](https://i.loli.net/2020/09/09/KFrMIi4kcjZ6nON.jpg)](https://i.loli.net/2020/09/09/KFrMIi4kcjZ6nON.jpg)
+
+## 如何开启HTTPS
+
+直接为这个站点配置SSL证书即可
+
+## 挂载本地
+
+如果按照我的方法安装，安装路径就是：root/sharelist
+您可以在 sharelist文件夹内创建一个文件夹（最好为英文），然后在网站后台管理最下方，
+挂载源：本地文件
+虚拟路径：单填一个 /即挂载你整个硬盘，自己写路径
+注意：如果后台打开了 开放上传功能，一定要加密目录，加密方法见下面
+
+## 挂载天翼云盘
+
+**1.账号密码挂载（Cookie方式）**
+挂载源： 189 cookic/天翼云 账号登录版
+挂载路径内容： /
+填写 /，ShareList将自动开启挂载向导，按指示操作即可
+注意：如果填写天翼云盘的账号密码显示错误，请确保输入的是正确的，然后 Ctrl+F5强制刷新一下或者等一会就好了
+
+**2.API方式挂载**
+挂载源： 天翼云 API版
+挂载路径内容： /
+填写 /，ShareList将自动开启挂载向导，按指示操作即可
+注意：access_token每隔30天需手动更新一次，到期前24小时内访问对应路径时会有更新提示。
+
+**3.天翼企业云盘挂载**
+挂载源： 天翼企业云 账号密码版
+挂载路径内容： /
+然后访问主页，点击挂载天翼的文件夹，会让你输入天翼云盘的账号密码，输入即可。
+
+## 挂载蓝奏云
+
+挂载源： 蓝奏云/LanZou
+挂载路径内容：password@folderId
+password是你的链接访问密码，folderId是你的分享地址后面的bxxxxxxxx
+比如：分享链接：https://lanzous.com/bxxxxxxx 访问密码：xxbb
+挂载路径就是： xxbb@bxxxxxxxx
+由于蓝奏云无法上传 .jpg.mp4等格式文件，可以在后面再加个 .ct上传
+比如文件名为：ceshi.jpg，改为 ceshi.jpg.ct上传到蓝奏云即可
+注意：蓝奏云vip版可以上传大于100M的文件，但大于100M的文件无法在ShareList访问！
+
+## 挂载GoogleDrive
+
+**1.使用分享ID挂载**
+由plugins/drive.gd.js插件实现
+挂载源：GDID挂载版
+挂载路径内容：分享的文件ID
+
+**2.使用官方API挂载**
+由plugins/drive.gd.api.js插件实现。
+挂载源：GD API版
+挂载路径内容：//应用ID/root?client_secret=应用机钥&redirect_uri=回调地址&refresh_token=refresh_token/
+建议填写 /，ShareList将自动开启挂载向导，按指示操作即可。
+
+## 挂载OneDrive
+
+**1.使用分享ID挂载**
+由plugins/drive.od.js插件实现
+挂载源：OD ID挂载版
+挂载路径内容：分享的文件ID
+
+**2.使用官方API挂载**
+由plugins/drive.od.api.js插件实现。
+挂载源：OD API版
+挂载路径内容：OneDrive路径->应用ID|应用机钥|回调地址|refresh_token OneDrive路径/
+建议填写 /，ShareList将自动开启挂载向导，按指示操作即可
+对于不符合OneDrive安全要求的域名，将采用中转方式验证，查看中转页面
+注意：由于onedrive修改了政策，个人Microsoft帐户已无法通过向导进行绑定。 需前往 Azure管理后台 注册应用并获取 app_id 和 app_secret 。
+
+**3.使用官方API挂载世纪互联**
+由plugins/drive.odc.api.js插件实现
+挂载源：OD 世纪互联
+挂载路径内容：//应用ID/路径?client_secret=应用机钥&redirect_uri=回调地址&refresh_token=refresh_token&tenant=组织名/
+建议填写 /，ShareList将自动开启挂载向导，按指示操作即可
+注意：组织名是指网盘访问链接中 https://***-my.sharepoint.cn/ 星号所示部分。
+
+**4.挂载OneDrive For Business**
+由plugins/drive.odb.js插件实现。
+挂载源：* OD Business 非API
+挂载路径内容：分享的url
+
+## 目录加密
+
+```txt
+type: basic 
+data: 
+  - user1:111111 
+  - user2:aaaaaa
+```
+
+basic是内置的验证方式，使用用户名密码对进行判断，上面的例子中可使用 user1的密码为 111111，user2的密码为 aaaaaa。
+
+## 虚拟目录
+
+在需创建虚拟目录处新建 目录名.d.ln文件。 其内容为 挂载源:挂载路径 如：创建虚拟目录指向本地 /root。
+
+```txt
+fs:/root
+```
+
+其中挂载源 fs表示本地磁盘，/root代表路径。
+再如：创建虚拟目录指向GoogleDrive的某个共享文件夹
+
+```txt
+gd:0BwfTxffUGy_GNF9KQ25Xd0xxxxxxx
+```
+
+gd是GoogleDrive的挂载源标示，冒号后的是共享文件夹ID。
