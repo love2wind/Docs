@@ -17,6 +17,8 @@
     - [docsify](note/site/docsify.md)
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
     - [哪吒面板搭建设置教程](note/site/nezha.md)
+    - [Privatebin搭建设置教程](note/site/privatebin.md)
+    - [青龙面板搭建设置教程](note/site/qinglong.md)
   * 网盘相关
     - [微软开发者E5申请](/note/imgpan/e5.md)
     - [注册Azure应用获取API](/note/imgpan/azureapi.md)
@@ -27,10 +29,12 @@
     - [OneManager-PHP](/note/imgpan/onemanager.md)
     - [PanIndex](/note/imgpan/panindex.md)
     - [ShareList](/note/imgpan/sharelist.md)
+    - [aria2搭建及配置](/note/imgpan/aria2.md)
   * 宝塔面板
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
     - [甲骨文ARM安装宝塔面板](note/bt/oraclearmbt.md)
+    - [宝塔面板安装GO语言](note/bt/golang.md)
   * [API相关](note/api/README.md)
     - [随机图片API](note/api/randomimg.md)
   * GITHUB
@@ -39,7 +43,9 @@
   * Google
     - [Google Voice迁移及保号教程](note/google/gv.md)
     - [使用CF Worker反代](note/google/work2google.md)
+    - [MTproxy TLS一键脚本](note/google/mtproxy.md)
   * TYPECHO
+    - [Typecho设置CDN](note/typecho/cdn.md)
 * 资源收集
   * [软件](ziyuan/soft.md)
     - [VScode安装配置记录](ziyuan/vscode.md)
