@@ -6,7 +6,7 @@
   * 基础知识
     - [Markdown](note/jichu/markdown.md)
     - [Emoji](note/jichu/emoji.md)
-    - [Google Fonts](note/jichu/googlefont.md)
+    - [烧饼loli公共CND](note/jichu/sbcdn.md)
     - [Linux常用命令](note/jichu/linux.md)
     - [常用脚本收集](note/jichu/shell.md)
     - [各邮箱POP设置](note/jichu/pop3.md)
@@ -40,7 +40,9 @@
   * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
+    - [优秀项目推荐](note/git/githubpj.md)
   * Google
+    - [Google Fonts](note/jichu/googlefont.md)
     - [Google Voice迁移及保号教程](note/google/gv.md)
     - [使用CF Worker反代](note/google/work2google.md)
     - [MTproxy TLS一键脚本](note/google/mtproxy.md)
@@ -52,4 +54,3 @@
   * [系统](ziyuan/system.md)
   * [主机](ziyuan/host.md)
   * [域名](ziyuan/domin.md)
-  * [项目](ziyuan/githubPJ.md)
