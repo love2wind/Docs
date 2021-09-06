@@ -48,9 +48,14 @@
     - [MTproxy TLS一键脚本](note/google/mtproxy.md)
   * TYPECHO
     - [Typecho设置CDN](note/typecho/cdn.md)
+    - [Typecho优化美化方法整理](note/typecho/meihua.md)
 * 资源收集
-  * [软件](ziyuan/soft.md)
+  * 软件APP
+    - [常用软件分享](ziyuan/soft/soft.md)
     - [VScode安装配置记录](ziyuan/vscode.md)
-  * [系统](ziyuan/system.md)
-  * [主机](ziyuan/host.md)
-  * [域名](ziyuan/domin.md)
+  * 操作系统
+    - [常用系统技巧](ziyuan/system/system.md)
+    - [操作系统下载](ziyuan/system/sysdown.md)
+  * 主机域名
+    - [主机相关](ziyuan/hostdomain/host.md)
+    - [域名相关](ziyuan/hostdomin/domain.md)
