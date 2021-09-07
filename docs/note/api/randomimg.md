@@ -1,4 +1,4 @@
-# 搭建随机图片的几种方法
+## 搭建随机图片的几种方法
 
 !> 网络上有很多随机图片的API，看着挺不错，这里就整理几种方便搭建的方法，希望对大家有所帮助。
 
@@ -301,3 +301,20 @@ Apache伪静态
 <img src="https://cf.cdn.xiazai.de/api/images/acg?9f0d34f8ee6f96b56d8902d1">
 ```
 
+### php实现返回jsdelivr随机图片
+
+在自己网站的根目录下创建img文件夹，在img文件夹下创建index.php文件，将下面代码修改一下放入index.php。
+
+```
+<?php
+ $x = rand(l, r);//l和r修改为图片的起始编号和结束编号，第一步的那个开始和结束
+ $url = 'https://cdn.jsdelivr.net/gh/你的用户名/仓库名/图片文件夹名/'.(string)$x.'.jpg';//根据第二部引用文章中的使用方法食用。
+ header('Content-Type: image/png');
+ echo(file_get_contents($url));
+?>
+```
+
+使用方法：图片链接换成上面的链接即可！
+
+注意：
+如果遇到加载的都是一张图片，解决方法就是在 网站域名/img 后面加入参数随便都行的比如 域名/img?id=666 ,当然每个参数要不一样呦。
