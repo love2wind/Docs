@@ -52,7 +52,7 @@
 * 资源收集
   * 软件APP
     - [常用软件分享](ziyuan/soft/soft.md)
-    - [VScode安装配置记录](ziyuan/vscode.md)
+    - [VScode安装配置记录](ziyuan/soft/vscode.md)
   * 操作系统
     - [常用系统技巧](ziyuan/system/system.md)
     - [操作系统下载](ziyuan/system/sysdown.md)
