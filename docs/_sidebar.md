@@ -2,6 +2,7 @@
   * [网站导航](nav/sitenav.md)
   * [图床测评](nav/tccp.md)
   * [网站推荐](nav/favsite.md)
+  * [TG群组、频道、BOT推荐](nav/tgnav.md)
 * 学习笔记
   * 基础知识
     - [Markdown](note/jichu/markdown.md)
@@ -11,6 +12,8 @@
     - [常用脚本收集](note/jichu/shell.md)
     - [各邮箱POP设置](note/jichu/pop3.md)
     - [常用颜色的RGB数值](note/jichu/color.md)
+    - [国内开源镜像站点汇总](note/jichu/mirrors.md)
+    - [零碎收集](note/jichu/other.md)
   * 网站搭建
     - [Hexo博客搭建教程](note/site/hexo.md)
     - [node.js安装全记录](note/site/nodejs.md)

@@ -20,5 +20,29 @@ pause
 
 亲测成功！
 
-在此记录，以便不时之需。不知道小伙伴们有什么其他的好办法？欢迎留言评论。
+### Windows实用Cmd命令
+
+#### 查看解析IP
+
+```
+ping blog.oioweb.cn
+```
+
+> blog.oioweb.cn :要查看IP/延迟的域名
+
+#### 查看解析记录
+
+```
+nslookup -q=mx qq.com
+```
+
+> mx:记录类型 常见的有 A CNAME AAAA MX TXT
+
+#### 清除dns缓存
+
+```
+ipconfig /flushdns
+```
+
+> dns第一次解析域名以后会缓存在本地，第二次直接使用缓存，为了加快访问速度，但是在域名更换解析IP以后还是缓存的以前IP，就可以使用此命令。
 

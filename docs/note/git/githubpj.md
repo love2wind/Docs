@@ -12,3 +12,9 @@ https://github.com/helloxz/onenav
 
 https://github.com/doocs/md
 
+
+
+[apachecn/CDNDrive: CDNDrive = BiliDrive + SuperBed，支持任意文件的全速上传与下载 (github.com)](https://github.com/apachecn/CDNDrive)
+
+[CDNDrive,利用图片CDN存储无限制文件 - 教书先生博客 (oioweb.cn)](https://blog.oioweb.cn/33.html)
+
