@@ -67,3 +67,10 @@
 - `url.cn:`[ http://sa.sogou.com/gettiny?url=https://www.zmki.cn](http://sa.sogou.com/gettiny?url=https://www.zmki.cn)
 - `dwz.cn：` [https://dwz.cn/](https://www.zmki.cn/go/?url=https://dwz.cn/)
 - `成品工具：` [http://url.tool.cc/](https://www.zmki.cn/go/?url=http://url.tool.cc/)
+
+API随机福利图
+
+https://yuanxiapi.cn/api/Littlesister
+
+已经先轮3000遍了,等等再轮一遍， 看图 https://3650000.xyz/view/?p=mjx  图片链接 https://3650000.xyz/view/url/mjx
+
