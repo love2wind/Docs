@@ -326,3 +326,28 @@ function getthemonth($date)
     return array($firstday, $lastday);
 }
 ```
+
+防止右键复制
+document.oncontextmenu=new Function("event.returnValue=false");
+document.onselectstart=new Function("event.returnValue=false");
+">
+防F12（无法直接防止开发者工具的调出）
+document.onkeydown = function () {
+
+    if (window.event && window.event.keyCode == 123) {
+    
+        event.keyCode = 0;
+    
+        event.returnValue = false;
+    
+        return false;
+    
+    }
+
+};
+">
+禁止调取开发者模式
+https://github.com/sindresorhus/devtools-detect
+
+防止盗用博客图片
+服务器开启防盗链，使用对象存储的开启域名防盗链，给自己的站设置白名单，并禁止空referer请求（这样会导致直接点进图片链接的人无法下载）
