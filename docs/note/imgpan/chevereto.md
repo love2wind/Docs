@@ -112,3 +112,27 @@ $settings['debug_level'] = 1;
 
 这样我们就可以根据提示，对图床进行配置了。
 
+```css
+.post__description h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    background: linear-gradient(to bottom, transparent 50%, rgba(189,202,219,0.3) 0) no-repeat;
+    line-height: 30px;
+    margin: 10px 0;
+    width: auto;
+    display: inline-flex;
+    color: rgb(255,102,0);
+}
+.post__description h1 {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    padding: 0 15px 0 28px;
+    margin: 15px 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB0PSIxNjMxMzI3MjQzMzkxIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEyMTMgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjMyMzk2IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik0xMTIyLjg0NCA0OC4wNzJjLTE3LjgwNi03LjY2OS0zOC40NzMtMTIuNTE2LTYwLjE2MS0xMy40MDYtNzAuODI1LTEyLjEwNS0xNjYuOTE0IDYuNTI2LTI0My4wMzggNDcuMDk1IDIyLjQ1My01NC42NjctNjMuMDU4LTMwLjY4NC05NS42NDUtMjIuMjc2LTEwNC43MjkgMjcuMDA1LTE5OC43NzMgNzUuODU4LTI4Mi42MTMgMTQyLjU2IDcuNDE0LTQ2LjQtNTEuNTItMTkuMzI1LTkzLjY1MyAxNS40MzEtODMuMTQ3IDY4LjY1OC0xNDkuMjggMTUwLjYxMy0xODkuNzA3IDI0OS43OTYtMzUuOTY0IDg4LjI4NC0zNS43MzQgMTc3LjgzMi0zLjQ2NyAyNjAuOTk1IDEwOS4xMDItMTE5Ljg3NSAyMTIuODU0LTIzNC40NTQgMzQ2LjQzNS0zNDkuNjg4IDE0OS41MjgtMTI5LjEzOCAzMjguMTk1LTIyOC40MjcgNDMxLjkyOS0yMzcuMzM0LTM5MC44OCAxOTUuODQtNjQ5LjM2OSA1MTkuODIyLTkwMC45MjQgODUwLjc1Nmg0MzUuNjQ0di0xNi42NzVoLTM4OS42NTNjNy4zOTYtMy4yNTMgMTMuODY3LTcuMzYgMjAuMjQ5LTE0LjMyOSAyOC45OTYtMzEuNTkxIDUyLjgxOC02Ny44NzYgODMuNTItOTcuOTU2IDM4LjY4NC0zNy44MTMgNDEuMDE0LTM0LjYxMyA3NC4yOTMtMzUuNDg0IDY0Ljc2NC0xLjY1NCAxMzAuMjIyLTYuNCAxOTMuODMxLTE4LjAwOCAxMzUuMzA3LTI0LjY5NCAyNTAuNzM4LTg2LjExNiAzMzkuMDQwLTE5MiAyMi4wMjctMjYuNDE4IDQzLjQ0OC03MS4zOTUtMTMuNTI5LTY5LjYxOCAyMC4wODktOS40NCAzNC4zNjQtMTUuMTgyIDQ3LjY2Mi0yMi41NDIgMTAzLjY0NC01Ny40MjIgMTk5LjgwNS0xMjMuMzI0IDI2MC43NDctMjI3LjQxMyAxNi40NDUtMjguMDg4IDM1LjItODEuNzYtMjAuMzAzLTcxLjI3MiAzMC42MTMtMjkuNzI0IDYwLjgxNy01NC4yNCA4NC44ODktODMuNTM4IDM1LjczNC00My40NDggMjYuMzI5LTczLjU4Mi0yNS41NDctOTUuMDkzeiIgZmlsbD0iIzQ0OEVGNiIgcC1pZD0iMzIzOTciPjwvcGF0aD48L3N2Zz4=);
+    background-size: 1.7rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #448ef6;
+    color: #448ef6;
+```
+
