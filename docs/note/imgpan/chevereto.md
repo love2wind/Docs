@@ -6,11 +6,15 @@ Chevereto是一个可以帮助你建立自己的图像分享网站（图床）�
 
 > 白标：white-label 直译为白标，引申为不注重品牌宣传的产品。Whitelabel致力于研发具有新功能、外形时尚、操作简单的产品，消费者可以尽情享受高科技带来的完美体验。whitelabel不做品牌宣传，我们提倡产品价值的回归，让消费者购买的是产品真正的价值，剔除广告费等一切隐形费用，享受超高性价比。良好的品质和口碑是我们最好的宣传。(摘自百度百科)
 
+![](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/44d63409c7bbae63049ca3885965120b.webp)
+
 官方网站：https://chevereto.com/
 
 官方文档：https://chevereto.com/docs
 
 中文文档：https://ch.cndrew.cn/
+
+DEMO：https://imgbed.top
 
 Chevereto有两个版本，一个付费版，一个免费版。一般情况下个人用户使用免费版就足够了，当然如果是土豪请随意。
 
@@ -84,7 +88,7 @@ location / {
 
 #### 4）访问你的站点域名开始安装
 
-![](C:\Users\Administrator\Desktop\Snipaste_2021-09-15_17-59-19.jpg)
+![](https://cdn.jsdelivr.net/gh/love2wind/cloudimg/img/82a623ad37d540cfd029b38d85a4c112.webp)
 
 **app/settings.php 的配置示例**
 
@@ -112,27 +116,203 @@ $settings['debug_level'] = 1;
 
 这样我们就可以根据提示，对图床进行配置了。
 
-```css
-.post__description h2 {
-    font-size: 1.5rem;
-    line-height: 1.4;
-    background: linear-gradient(to bottom, transparent 50%, rgba(189,202,219,0.3) 0) no-repeat;
-    line-height: 30px;
-    margin: 10px 0;
-    width: auto;
-    display: inline-flex;
-    color: rgb(255,102,0);
-}
-.post__description h1 {
-    font-size: 1.7rem;
-    line-height: 1.4;
-    padding: 0 15px 0 28px;
-    margin: 15px 0;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB0PSIxNjMxMzI3MjQzMzkxIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEyMTMgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjMyMzk2IiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiPjxwYXRoIGQ9Ik0xMTIyLjg0NCA0OC4wNzJjLTE3LjgwNi03LjY2OS0zOC40NzMtMTIuNTE2LTYwLjE2MS0xMy40MDYtNzAuODI1LTEyLjEwNS0xNjYuOTE0IDYuNTI2LTI0My4wMzggNDcuMDk1IDIyLjQ1My01NC42NjctNjMuMDU4LTMwLjY4NC05NS42NDUtMjIuMjc2LTEwNC43MjkgMjcuMDA1LTE5OC43NzMgNzUuODU4LTI4Mi42MTMgMTQyLjU2IDcuNDE0LTQ2LjQtNTEuNTItMTkuMzI1LTkzLjY1MyAxNS40MzEtODMuMTQ3IDY4LjY1OC0xNDkuMjggMTUwLjYxMy0xODkuNzA3IDI0OS43OTYtMzUuOTY0IDg4LjI4NC0zNS43MzQgMTc3LjgzMi0zLjQ2NyAyNjAuOTk1IDEwOS4xMDItMTE5Ljg3NSAyMTIuODU0LTIzNC40NTQgMzQ2LjQzNS0zNDkuNjg4IDE0OS41MjgtMTI5LjEzOCAzMjguMTk1LTIyOC40MjcgNDMxLjkyOS0yMzcuMzM0LTM5MC44OCAxOTUuODQtNjQ5LjM2OSA1MTkuODIyLTkwMC45MjQgODUwLjc1Nmg0MzUuNjQ0di0xNi42NzVoLTM4OS42NTNjNy4zOTYtMy4yNTMgMTMuODY3LTcuMzYgMjAuMjQ5LTE0LjMyOSAyOC45OTYtMzEuNTkxIDUyLjgxOC02Ny44NzYgODMuNTItOTcuOTU2IDM4LjY4NC0zNy44MTMgNDEuMDE0LTM0LjYxMyA3NC4yOTMtMzUuNDg0IDY0Ljc2NC0xLjY1NCAxMzAuMjIyLTYuNCAxOTMuODMxLTE4LjAwOCAxMzUuMzA3LTI0LjY5NCAyNTAuNzM4LTg2LjExNiAzMzkuMDQwLTE5MiAyMi4wMjctMjYuNDE4IDQzLjQ0OC03MS4zOTUtMTMuNTI5LTY5LjYxOCAyMC4wODktOS40NCAzNC4zNjQtMTUuMTgyIDQ3LjY2Mi0yMi41NDIgMTAzLjY0NC01Ny40MjIgMTk5LjgwNS0xMjMuMzI0IDI2MC43NDctMjI3LjQxMyAxNi40NDUtMjguMDg4IDM1LjItODEuNzYtMjAuMzAzLTcxLjI3MiAzMC42MTMtMjkuNzI0IDYwLjgxNy01NC4yNCA4NC44ODktODMuNTM4IDM1LjczNC00My40NDggMjYuMzI5LTczLjU4Mi0yNS41NDctOTUuMDkzeiIgZmlsbD0iIzQ0OEVGNiIgcC1pZD0iMzIzOTciPjwvcGF0aD48L3N2Zz4=);
-    background-size: 1.7rem;
-    background-position: left center;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid #448ef6;
-    color: #448ef6;
+## 常见问题汇总
+
+#### 1）首页添加网站图片数量
+
+修改 `app/themes/Peafowl/views/index.php` 大约在32行的适当位置添加下面代码：
+
+```php
+<p>目前本站已安全托管 <?php $stats = CHV\Stat::getTotals(); echo $stats['images'] > 999999 ? $stats['images'] : number_format($stats['images']); ?> 张图片</p>
 ```
 
+#### 2）添加备案信息
+
+修改 `app/themes/Peafowl/views/index.php`  找到下述代码：
+
+```php
+<div class="footer"><?php _se('Powered by'); ?> <a href="https://chevereto.com" rel="generator">Chevereto</a></div>
+```
+
+替换成类似如下代码即可。
+
+```php
+<div class="footer"><a href="http://www.beian.miit.gov.cn" target="_blank">沪ICP备12345678号</a></div>
+```
+
+#### 3）通过api上传图片到指定用户、指定相册
+
+API V1没有办法上传与给定用户相关联的图像，但是你可以覆盖默认的API，将默认的`app/routes/route.api.php`的文件复制到`app/routes/overrides/route.api.php`文件夹。
+
+**105行下列内容**
+
+```
+CHV\Image::uploadToWebsite($source);
+```
+
+**改成这个**(将 `juanito` 更换成目标用户名或用户id)
+
+```php
+// 这将会为juanito用户上传图片
+$uploaded_id = CHV\Image::uploadToWebsite($source, 'juanito');
+```
+
+通过这一步，`/api`路径(来源于`app/routes/overrides/route.api.php`)将以该用户的名称上传图像。
+
+**改成这样是指定用户、指定相册**
+
+```php
+		$uploaded_id = CHV\Image::uploadToWebsite($source,'juanito', array('album_id'=>1)); 
+```
+
+#### 4）注册和登录页面显示公共头部和尾部
+
+##### 修改 login.php 文件
+
+需要修改三处，一处为头部引用代码，另一处为背景调用代码，还有一处是尾部调用代码。
+
+**a. 修改头部引用代码**
+
+查找：
+
+```php
+<?php G\Render\include_theme_file('head'); ?>
+```
+
+替换为：
+
+```php
+<?php G\Render\include_theme_header(); ?>
+```
+
+**b. 修改背景调用代码**
+
+查找：
+
+```php
+<?php G\Render\include_theme_file('snippets/quickty/background_cover'); ?>
+```
+
+替换为：
+
+```php
+<?php G\Render\include_theme_file('snippets/homepage_cover_slideshow'); ?>
+```
+
+**c. 修改尾部代码**
+
+查找：
+
+```php
+<?php G\Render\include_theme_file('snippets/quickty/top_left'); ?>
+```
+
+替换为：
+
+```php
+<div id="home-cover-footer">
+    <?php _se('Powered by Chevereto')?>
+</div>
+```
+
+##### 修改 header.php 文件
+
+需要修改两处，一处修改 class 内容，另一处为修改 logo 地址。
+
+**a. 修改 class 内容**
+
+查找：
+
+```php
+if (G\get_route_name() == 'index') {
+    $body_class = CHV\getSetting('homepage_style');
+    if (function_exists('get_list')) {
+        $list = get_list();
+        $hasPrev = $list->has_page_prev;
+        if ($hasPrev) {
+            $body_class = '';
+        } else {
+            $top_bar_class = in_array(CHV\getSetting('homepage_style'), ['landing', 'split']) ? 'black' : get_theme_top_bar_color();
+        }
+    } else {
+        $top_bar_class = 'black';
+    }
+}
+```
+
+在后面添加：
+
+```php
+// 给 body 和 header 指定样式名称，跟首页保持一致，从而达到首页的头部效果
+else if (G\get_route_name() == 'login' or G\get_route_name() == 'signup') {
+    $body_class = 'full--wh landing'; 
+    $top_bar_class = 'transparent black'; 
+}
+```
+
+**b. 修改 logo 地址**
+
+查找：
+
+```php
+if ($body_class && G\get_route_name() == 'index' and in_array(CHV\getSetting('homepage_style'), ['landing', 'split'])) {
+    $logo_header .= '_homepage';
+}
+```
+
+在后面添加：
+
+```php
+// 给 LOGO 指定样式名称，跟首页保持一致，从而达到首页的 LOGO 效果
+else  if ($body_class && (G\get_route_name() == 'login' or G\get_route_name() == 'signup') and in_array(CHV\getSetting('homepage_style'), ['landing', 'split'])) {
+    $logo_header .= '_homepage';
+}
+```
+
+#### 5）Chevereto图床程序上传大图片失败Server error(Internal server error) 解决方法
+
+很多人在使用上传图片时就一部分上传的时候提示:Server error（internal server error），特别是上传大文件的图片以及很多图片的时候，这个错误就简直了，因为他提示错误之后，有的图片会继续上传，有的不会，然后你就不知道你到底上传了什么图片，没上传什么图片。。。
+
+上传多张图片是出错，或者上传单个大图片（7MB-10MB以上图片）时也会提示 Server error（internal server error），像这种情况我们需要修改一下PHP配置的数值：
+
+```php
+max_execution_time
+max_input_time
+memory_limit
+post_max_size
+upload_max_filesize
+```
+
+这个数值要根据自己服务器配置来调，服务器配置低的不要调太高。
+
+#### 6）添加邮件模板
+
+上传邮件模板文件至 Chevereto 主题 `Peafowl/overrides/mails/` 文件目录下即可，或者直接替换掉`mails` 目录亦可。
+
+**目前已支持以下模板**
+
+- 账号更换邮箱
+- 新账户注册验证
+- 账户重置密码
+- 新用户注册欢迎
+
+**更改邮件模板头图**
+
+打开邮件模板文件，找到以下代码，替换为你自己的图片链接。
+
+```php
+$body_arr  = [ // Mail body array (easier to edit)
+'Backimg' => 'https://resbeta.com/images/2019/02/22/365027cf0b5e911c3212750373c9f684.md.jpg',//修改此处图片链接即可
+.........
+];
+```
+
+**文件下载**
+
+https://ola.niege.ml/t/DGO8KG
+
+#### 7）其他
+
+[Chevereto也能用QQ、GitHub、微博登陆啦 - 松鼠の博客 (doge.uk)](https://doge.uk/coding/chevereto-qq-login.html)
+
+[Chevereto 更改图像预览快捷键 - 松鼠の博客 (doge.uk)](https://doge.uk/coding/chevereto-change-image-preview-shortcut.html)
