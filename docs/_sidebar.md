@@ -65,3 +65,5 @@
   * 主机域名
     - [主机相关](ziyuan/hostdomain/host.md)
     - [域名相关](ziyuan/hostdomin/domain.md)
+    - [Cloudflare相关](ziyuan/hostdomin/cf.md)
+
