@@ -34,6 +34,7 @@
     - [ShareList](/note/imgpan/sharelist.md)
     - [aria2搭建及配置](/note/imgpan/aria2.md)
     - [宝塔面板安装Chevereto图床程序及其常见问题](/note/imgpan/chevereto.md)
+    - [imgurl Pro安装及配置](/note/imgpan/imgurlpro.md)
   * 宝塔面板
     - [宝塔面板安装全记录](note/bt/install.md)
     - [最新解除绑定的方法](note/bt/jiebangbt.md)
