@@ -40,3 +40,15 @@ echo '<link rel="stylesheet" type="text/css" media="all" href="night.css">';
 ("Y-m-d H:i:s");                     // 2001-03-10 17:16:18 （MySQL DATETIME 
 ```
 
+## 优化 Typecho 评论管理图片&视频显示布局错乱
+
+!> 控制图片、视频的预览高度与宽度
+
+**编辑文件：`/admin/css/style.css`**
+**在文件末端粘贴以下代码并保存**
+
+```css
+/* Comment management picture & video display layout out of order */
+.comment-content img { border: 0; max-height: 240px; max-width: 480px; }
+.comment-content video { border: 0; max-height: 240px; max-width: 480px; }
+```
