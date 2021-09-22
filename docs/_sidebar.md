@@ -65,6 +65,7 @@
     - [操作系统下载](ziyuan/system/sysdown.md)
   * 主机域名
     - [主机相关](ziyuan/hostdomain/host.md)
+    - [EUserv纯IPV6德国免费VPS申请全攻略](ziyuan/hostdomain/euserv.md)
     - [域名相关](ziyuan/hostdomain/domain.md)
     - [Cloudflare相关](ziyuan/hostdomain/cf.md)
 
