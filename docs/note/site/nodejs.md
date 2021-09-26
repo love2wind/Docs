@@ -84,12 +84,16 @@ cache=D:\nodejs\node_cache
 和上面配置全局路径一样，我们可以直接用命令
 
 ````shell
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+// 有时候这样仍然会失败，镜像并没有改变，可使用下面这条命令修改
 npm config set registry=http://registry.npm.taobao.org
 ````
 
 或者修改npmrc文件，添加参数
 
-`registry=http://registry.npm.taobao.org`
+````shell
+registry=http://registry.npm.taobao.org
+````
 
 设置完可以用命令`npm config list` 查看配置参数
 
@@ -166,16 +170,37 @@ current: {"os":"win32","arch":"x64"}
 - 选择**nvm**安装路径，点击 `Next`；
 - 选择**node**安装路径，点击 `Next`；
 - 点击 `Install` 安装；
-- 命令行用 `nvm -v` 验证。
+- 命令行用 `nvm -version` 验证。
 
 **b. 安装node.js版本**
 
-- 输入命令行 `nvm ls anaillable` 查看可用的node.js版本号；
-- 输入命令行 `nvm install node 版本号`(例如：nvm install 12.17.0)即可安装对应版本以及自动安装对应的npm版本。除了上面显示的node.js版本，其他版本号也可以下载，只不过有些可以准确下载，有些会出现npm版本不会自动下载；
+- 输入命令行 `nvm list available` 查看可用的node.js版本号；
+- 输入命令行 `nvm install 版本号`(例如：nvm install 12.17.0)即可安装对应版本以及自动安装对应的npm版本。除了上面显示的node.js版本，其他版本号也可以下载，只不过有些可以准确下载，有些会出现npm版本不会自动下载；
 - 安装完成后可以分别输入命令行 `node -v `和 `npm -v` ，检验**node.js**以及对应**npm**是否安装成功，如果可以显示版本号这说明安装成功；
-- 输入命令行 `nvm use node 版本号`（例如：nvm use 12.17.0）即可选择你本地所使用的Node.js版本，使用此命令行可以根据你自己的需要随意切换node.js版本运行；
-- 输入命令行 `nvm ls` 查看你安装的所有**node.js**版本号，以及你当前所选择的node.js运行版本；
-- 如果想删除某**node.js**版本的话，输入命令行 `nvm install node 版本号`（例如：nvm use 12.17.0）即可删除对应版本。
+- 输入命令行 `nvm use 版本号`（例如：nvm use 12.17.0）即可选择你本地所使用的Node.js版本，使用此命令行可以根据你自己的需要随意切换node.js版本运行；
+- 输入命令行 `nvm list` 查看你安装的所有**node.js**版本号，以及你当前所选择的node.js运行版本；
+- 如果想删除某**node.js**版本的话，输入命令行 `nvm uninstall node 版本号`（例如：nvm use 12.17.0）即可删除对应版本。
+- 设置nvm镜像，提高下载速度。**切记结尾有斜杠
+
+```c++
+nvm node_mirror http://npm.taobao.org/mirrors/node/
+nvm npm_mirror https://npm.taobao.org/mirrors/npm/
+```
+
+- 或者修改nvm安装目录下的setting.txt文件，在文件中加入
+
+```c++
+node_mirror: http://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
+
+mac 和 linux 版 nvm 就没有 node_mirror & npm_mirror 命令 😂 ，设置下载 node 镜像地址的方式是
+
+```
+export NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+```
+
+将等号后面地址换成淘宝镜像([https://npm.taobao.org/mirrors/node](https://npm.taobao.org/mirrors/node/))就可以了 😄 [详见➡️](https://github.com/creationix/nvm#listing-versions)
 
 ### 缓存问题
 
@@ -319,4 +344,6 @@ npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/ch
 windows系统node升级：https://www.jianshu.com/p/0f3fdf6c0d5f
 
 windows如何把已安装的nodejs高版本降级为低版本(图文教程)：https://www.jb51.net/article/202124.htm
+
+nvm 设置下载 node 的镜像地址 ：https://github.com/xhlwill/blog/issues/7
 
