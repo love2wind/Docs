@@ -27,7 +27,7 @@ Office365 E5申请好之后，如何稳定续期是个玄学问题，除了搭�
 
 !> 由于本方法需要使用的Telegram，所以在整改操作过程中会出现一些你懂的网络故障，这个就要你自己想办法解决了，不会的可以搜索。
 
-#### 1、获取应用信息
+### 1、获取应用信息
 
 ?> 目前微软经常会关闭快速注册应用的通道，所以E5SubBot自带的流程会经常性抽风，所以推荐大家手动注册应用并绑定。下面说下基本流程。
 
@@ -57,27 +57,21 @@ Office365 E5申请好之后，如何稳定续期是个玄学问题，除了搭�
 **至此，azure 应用申请的步骤完成！**
 
 
-#### 2、绑定E5SubBot
+### 2、绑定E5SubBot
 
 首先打开作者搭建的BOT：https://t.me/E5Sub_bot（或者在**Telegram**中搜索`E5Sub_bot`）
 
 1. 发送`/bind`，**不要点击链接**
-
 2. 回复`client_id+空格+client_secret`（在前面步骤8 和步骤11中取得）
 
    - 打开授权链接，登录（建议用子账号，管理员也可以，最好用电脑）
 
    - 等待跳转，复制网址（不是登录网址，是跳转后浏览器地址栏中的网址，以`http://localhost/e5sub?code=`开头的一串字符）
+3. 回复机器人刚才复制的`链接+空格+别名`（别名自己随便填写，方便记忆就好）如：
 
-3. 回复机器人`刚才复制的链接+空格+别名`（别名自己随便填写，方便记忆就好）
-   如`http://localhost/e5sub?code=OAQABAAIAAAAGV_bv21oQQ4ROqh0_1-tAObGXtDgPSww8tJb4emamOwwCKkccit_Hs
-   H5WCj37CGLJvN7IXlyXO8piHqtW1Yyg5aB_iVV9b1INX1WvaS1zDlXsKrDwq1f4vjPN2bulUarT0OmHh47ROl4JCUkRB8b
-   G0dwJSP7FJDPWXXVSfoCFKM9oLNuDi-V6q3inpEz5FIGrYzn0RI34ka_Jp0j-bBCUZo_4Judw77Jzg9CssHnsjY7HBIYIr
-   cZ-hHnNyWWzZ1-FERIl8A6AKWf8L_ch7B1f4nJTBtEvBEfAdcXMIN6dHyE0pNuJsAudQHkF0_Cr_Y-siNGndtAbMZm_vtB
-   4cNyLUQQAoTDXxDP44l_NUsEq0B1_BRqQMRKObywUAqzZL70N2TB_p4mLGn_V3RkE1POFYNoMSU-CEgRR5Auoz1aQlEcTe
-   RsCOwV02KLYDJoyy1hEq6UIHnkb3EebND3fvdYV2FQ6R0LwULBPN7VotTXi2vG2KGEAA-O4foiIlDEOoOQGO7uke1L-owh
-   BHiIHiyv4VfEnCoEvxAQrlEN-NvXcjKD6xG2z8BJGvsDY8O11VU4V1zVcEQFiu4mJxHKfsgwHVJ2SiMoLvATeOigsRCHF8
-   Vl1cQeBDM8EsROLFoBY_78gAA&session_state=a422855f-af51-4578-9ecf-76da5caa6175 测试别名`
+```
+http://localhost/e5sub?code=OAQABAAIAAAAGV_bv21oQQ4ROqh0...这里是一大串英文和符号...4578-9ecf-76da5caa6175 测试别名
+```
 
 看下图，就是整个绑定流程
 
@@ -85,7 +79,7 @@ Office365 E5申请好之后，如何稳定续期是个玄学问题，除了搭�
 
 
 
-#### BOT常用命令
+### BOT常用命令
 
 - `/my` 查看已绑定账户信息
 - `/bind`  绑定新账户

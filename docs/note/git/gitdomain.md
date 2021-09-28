@@ -63,7 +63,7 @@ Github自定义域名的方法网上一搜一大把，但是从18年开始Github
 > 4.  刷新项目设置页，如果 `enforce HTTPS` 可勾选，勾选即可；
 > 5.  如果 `enforce HTTPS` 不可勾选，并且提示 `Not yet available for your site because the certificate has not finished being issued”` ，说明证书尚未申请完成，等待一天即可。
 >
-> **注意**，如果使用 Chrome 访问 https://love2wind.com地址栏左侧仍未出现小绿锁，请检查自己的网站引用的资源文件有没有使用了 http 协议，请替换成相应的 https 资源。
+> **注意**，如果使用 Chrome 访问 https://love2wind.com 地址栏左侧仍未出现小绿锁，请检查自己的网站引用的资源文件有没有使用了 http 协议，请替换成相应的 https 资源。
 
 ### 域名解析
 
@@ -88,8 +88,9 @@ Github自定义域名的方法网上一搜一大把，但是从18年开始Github
 
 #### 参考
 
-- [GitHub Pages 自定义域名实践整理 - SegmentFault 思否](https://segmentfault.com/a/1190000018038675)
+- [GitHub Pages 自定义域名实践整理](https://segmentfault.com/a/1190000018038675)
 
-- [GitHub Pages 对自定义域名支持 HTTPS | Cafeting (likfe.com)](https://likfe.com/2018/05/03/github-pages-custom-domains-support-https/)
+- [GitHub Pages 对自定义域名支持 HTTPS ](https://likfe.com/2018/05/03/github-pages-custom-domains-support-https/)
 
-- [Managing a custom domain for your GitHub Pages site - GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+- [Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+
