@@ -344,9 +344,9 @@ npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/ch
 
 ### 参考文献
 
-windows系统node升级：https://www.jianshu.com/p/0f3fdf6c0d5f
+- windows系统node升级：https://www.jianshu.com/p/0f3fdf6c0d5f
 
-windows如何把已安装的nodejs高版本降级为低版本(图文教程)：https://www.jb51.net/article/202124.htm
+- windows如何把已安装的nodejs高版本降级为低版本(图文教程)：https://www.jb51.net/article/202124.htm
 
-nvm 设置下载 node 的镜像地址 ：https://github.com/xhlwill/blog/issues/7
+- nvm 设置下载 node 的镜像地址 ：https://github.com/xhlwill/blog/issues/7
 
