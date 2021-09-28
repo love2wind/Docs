@@ -158,6 +158,8 @@ current: {"os":"win32","arch":"x64"}
 
 #### 2）安装nvm管理工具
 
+?> [点击这里查看nvm完整安装设置教程](/note/site/nvm)
+
 先关掉杀毒软件，不然会弹出警告！然后从官网下载最新安装包 https://github.com/coreybutler/nvm-windows/releases，解压得到 `nvm-setup.exe`
 
 **a. 运行此文件进行安装**
@@ -166,16 +168,16 @@ current: {"os":"win32","arch":"x64"}
 - 选择**nvm**安装路径，点击 `Next`；
 - 选择**node**安装路径，点击 `Next`；
 - 点击 `Install` 安装；
-- 命令行用 `nvm -v` 验证。
+- 命令行用 `nvm` 验证。
 
 **b. 安装node.js版本**
 
-- 输入命令行 `nvm ls anaillable` 查看可用的node.js版本号；
-- 输入命令行 `nvm install node 版本号`(例如：nvm install 12.17.0)即可安装对应版本以及自动安装对应的npm版本。除了上面显示的node.js版本，其他版本号也可以下载，只不过有些可以准确下载，有些会出现npm版本不会自动下载；
+- 输入命令行 `nvm list available` 查看可用的node.js版本号；
+- 输入命令行 `nvm install 版本号`(例如：nvm install 12.17.0)即可安装对应版本以及自动安装对应的npm版本。除了上面显示的node.js版本，其他版本号也可以下载，只不过有些可以准确下载，有些会出现npm版本不会自动下载；
 - 安装完成后可以分别输入命令行 `node -v `和 `npm -v` ，检验**node.js**以及对应**npm**是否安装成功，如果可以显示版本号这说明安装成功；
-- 输入命令行 `nvm use node 版本号`（例如：nvm use 12.17.0）即可选择你本地所使用的Node.js版本，使用此命令行可以根据你自己的需要随意切换node.js版本运行；
-- 输入命令行 `nvm ls` 查看你安装的所有**node.js**版本号，以及你当前所选择的node.js运行版本；
-- 如果想删除某**node.js**版本的话，输入命令行 `nvm install node 版本号`（例如：nvm use 12.17.0）即可删除对应版本。
+- 输入命令行 `nvm use 版本号`（例如：nvm use 12.17.0）即可选择你本地所使用的Node.js版本，使用此命令行可以根据你自己的需要随意切换node.js版本运行；
+- 输入命令行 `nvm list` 查看你安装的所有**node.js**版本号，以及你当前所选择的node.js运行版本；
+- 如果想删除某**node.js**版本的话，输入命令行 `nvm uninstall 版本号`（例如：nvm use 12.17.0）即可删除对应版本。
 
 ### 缓存问题
 
@@ -310,7 +312,7 @@ npm cache clear --force
 
 **2. 更换数据源**
 
-```
+```shell
 npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/chromedriver
 ```
 

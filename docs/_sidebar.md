@@ -17,6 +17,7 @@
   * 网站搭建
     - [Hexo博客搭建教程](note/site/hexo.md)
     - [node.js安装全记录](note/site/nodejs.md)
+    - [node.js版本管理利器nvm安装设置全过程记录 ](ote/site/nvm.md)
     - [docsify](note/site/docsify.md)
     - [Freenom免费域名自动续期](note/site/freenomxq.md)
     - [哪吒面板搭建设置教程](note/site/nezha.md)
