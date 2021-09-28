@@ -84,12 +84,16 @@ cache=D:\nodejs\node_cache
 和上面配置全局路径一样，我们可以直接用命令
 
 ````shell
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+// 有时候这样仍然会失败，镜像并没有改变，可使用下面这条命令修改
 npm config set registry=http://registry.npm.taobao.org
 ````
 
 或者修改npmrc文件，添加参数
 
-`registry=http://registry.npm.taobao.org`
+````shell
+registry=http://registry.npm.taobao.org
+````
 
 设置完可以用命令`npm config list` 查看配置参数
 
@@ -178,6 +182,28 @@ current: {"os":"win32","arch":"x64"}
 - 输入命令行 `nvm use 版本号`（例如：nvm use 12.17.0）即可选择你本地所使用的Node.js版本，使用此命令行可以根据你自己的需要随意切换node.js版本运行；
 - 输入命令行 `nvm list` 查看你安装的所有**node.js**版本号，以及你当前所选择的node.js运行版本；
 - 如果想删除某**node.js**版本的话，输入命令行 `nvm uninstall 版本号`（例如：nvm use 12.17.0）即可删除对应版本。
+- 设置nvm镜像，提高下载速度。**切记结尾有斜杠
+
+```c++
+nvm node_mirror http://npm.taobao.org/mirrors/node/
+nvm npm_mirror https://npm.taobao.org/mirrors/npm/
+```
+
+- 或者修改nvm安装目录下的setting.txt文件，在文件中加入
+
+```c++
+node_mirror: http://npm.taobao.org/mirrors/node/npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
+
+mac 和 linux 版 nvm 就没有 node_mirror & npm_mirror 命令 😂 ，设置下载 node 镜像地址的方式是
+
+```
+export NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+```
+
+将等号后面地址换成淘宝镜像([https://npm.taobao.org/mirrors/node](https://npm.taobao.org/mirrors/node/))就可以了 😄 [详见➡️](https://github.com/creationix/nvm#listing-versions)
+
+>>>>>>> 288ee7c5e17b2e2e128bcabe0f44ce456c12d006
 
 ### 缓存问题
 
@@ -321,4 +347,6 @@ npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/ch
 windows系统node升级：https://www.jianshu.com/p/0f3fdf6c0d5f
 
 windows如何把已安装的nodejs高版本降级为低版本(图文教程)：https://www.jb51.net/article/202124.htm
+
+nvm 设置下载 node 的镜像地址 ：https://github.com/xhlwill/blog/issues/7
 
