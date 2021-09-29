@@ -200,10 +200,8 @@
 !!!
 ```
 
-!!!
-<!-- 引入方式 -->
 <meting-js auto="https://music.163.com/#/playlist?id=110459831"></meting-js>
-!!!
+
 
 ### QQ音乐歌单
 
@@ -214,10 +212,10 @@
 !!!
 ```
 
-!!!
-<!-- 引入方式 -->
 <meting-js auto="https://y.qq.com/n/yqq/playlist/7355087593.html"></meting-js>
-!!!
+
+
+
 
 ### 自定义歌单
 
@@ -253,8 +251,7 @@
 </script>
 !!!
 ```
-!!!
-<!-- 或编程引入 -->
+
 
 <div id="ap"></div>
 <script>
@@ -272,6 +269,5 @@
     });
 </script>
 
-!!!
 
 怎么样，效果还算不错吧，赶紧也给你添加一下啊。本文转载自[任意站点引入 APlayer 和 Meting 的简单方法](https://logi.im/blog/simple-way-to-add-aplayer-on-your-website.html)

@@ -3,6 +3,7 @@
   * [图床测评](nav/tccp.md)
   * [网站推荐](nav/favsite.md)
   * [TG群组、频道、BOT推荐](nav/tgnav.md)
+  
 * 学习笔记
   * 基础知识
     - [Markdown](note/jichu/markdown.md)
@@ -54,7 +55,13 @@
     - [MTproxy TLS一键脚本](note/google/mtproxy.md)
   * TYPECHO
     - [Typecho设置CDN](note/typecho/cdn.md)
+
     - [Typecho优化美化方法整理](note/typecho/meihua.md)
+
+    - [为你的网站引入Aplayer和Meting的方法](note/typecho/aplayer.md)
+
+      
+
 * 资源收集
   * 软件APP
     - [常用软件分享](ziyuan/soft/soft.md)
