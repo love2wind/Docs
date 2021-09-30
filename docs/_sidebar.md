@@ -24,6 +24,7 @@
     - [哪吒面板搭建设置教程](note/site/nezha.md)
     - [Privatebin搭建设置教程](note/site/privatebin.md)
     - [青龙面板搭建设置教程](note/site/qinglong.md)
+    - [instant.page一段代码为你的网站加速](note/site/instantpage.md)
   * 网盘相关
     - [微软开发者E5申请](/note/imgpan/e5.md)
     - [注册Azure应用获取API](/note/imgpan/azureapi.md)
@@ -47,6 +48,7 @@
   * GITHUB
     - [My Github](note/git/mygithub.md)
     - [github自定义域名的那点事](note/git/gitdomain.md)
+    - [套框头像生成网站搭建](note/git/avatar.md)
     - [优秀项目推荐](note/git/githubpj.md)
   * Google
     - [Google Fonts](note/jichu/googlefont.md)
@@ -61,13 +63,14 @@
     - [为你的网站引入Aplayer和Meting的方法](note/typecho/aplayer.md)
 
       
-
+  
 * 资源收集
   * 软件APP
     - [常用软件分享](ziyuan/soft/soft.md)
     - [VScode安装配置记录](ziyuan/soft/vscode.md)
     - [强大的阿里云盘第三方客户端](ziyuan/soft/alipanxby.md)
     - [常用软件使用技巧](ziyuan/soft/jiqiao.md)
+    - [分享两个小工具：OneDrive直链生产&短链接生成](ziyuan/soft/2toolshare.md)
   * 操作系统
     - [操作系统常识](ziyuan/system/system.md)
     - [操作系统下载](ziyuan/system/sysdown.md)
